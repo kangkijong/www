@@ -1,0 +1,106 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+    position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+    left:50%;
+    top:55%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+    width:auto;
+    min-width:100%; /*동영상 너비를 꽉차게*/
+    height:auto;
+    min-height:100%; /*동영상 높이를 꽉차게*/
+    transform:translateX(-50%) translateY(-50%);
+    z-index:-100;
+}
+
+.videoBox h2{position: absolute; top: 40%; left: 0; width: 100%; text-align: center; color: #fff;
+    font-family: 'Anton', sans-serif; font-size: 100px;}
+
+.down{display: block; font-size: 20px; position: absolute; 
+	left:50%; margin-left: -70px; bottom: 20%;
+	animation:ani 1s infinite  alternate;}
+
+.img_down{display: block; width: 99px; height: 100px; position: absolute;
+    left:50%; margin-left: -50px; bottom: 5%;
+	animation:ani 1s infinite  alternate;}
+
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}	
+
+#content{width:90%; margin:0 5%;}
+
+#content h3{font-family: 'Anton', sans-serif; font-size: 60px; text-align: center; margin-top: 100px; margin-bottom: 100px; color: #fff;}
+#content h4{font-family: 'Anton', sans-serif; font-size: 30px; text-align: justify; margin-bottom: 20px; font-weight: 400; color: #fff;}
+#content>div p{text-align: justify; color: #fff; margin-bottom: 50px;}
+
+.img_box{float: left; width: 48%; margin-right: 2%;}
+.img_box img{display: block; float: left; width: 100%; margin-bottom: 20px;}
+.img_box2{width: 70%; margin-left: 30%;}
+.img_box2 img{display: block; float: left; width: 100%;}
+.text_box{float: right; width: 50%;}
+
+.spectre{background: rgba(76, 76, 76, .9); padding-bottom: 100px; position: relative;}
+.spectre_inner{width: 95%; margin: 0 auto; overflow: hidden;}
+.music{position: absolute; right: 7%; top: 140px;}
+.music button{border: 1px solid #fff; background: rgba(76, 76, 76, .9); padding: 5px; color: #fff;}
+
+.skyfall{background: rgba(0, 0, 0, .9); padding-bottom: 100px; position: relative;}
+.skyfall_inner{width: 95%; margin: 0 auto; overflow: hidden;}
+.music2{position: absolute; right: 7%; top: 140px;}
+.music2 button{border: 1px solid #fff; background: rgba(0, 0, 0, .9); padding: 5px; color: #fff;}
+
+.qos{background: rgba(76, 76, 76, .9); padding-bottom: 100px; position: relative;}
+.qos_inner{width: 95%; margin: 0 auto; overflow: hidden;}
+.music3{position: absolute; right: 7%; top: 140px;}
+.music3 button{border: 1px solid #fff; background: rgba(76, 76, 76, .9); padding: 5px; color: #fff;}
+
+.casino{background: rgba(0, 0, 0, .9); padding-bottom: 100px; margin-bottom: 100px; position: relative;}
+.casino_inner{width: 95%; margin: 0 auto; overflow: hidden;}
+.music4{position: absolute; right: 7%; top: 140px;}
+.music4 button{border: 1px solid #fff; background: rgba(0, 0, 0, .9); padding: 5px; color: #fff;}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    .text_hide{display: none;}
+ }
+
+/* 태블릿 */
+@media screen and (max-width:1024px) {
+    .videoBox h2{font-size: 80px;}
+    .img_box2{width: 100%; margin: 0;}
+}
+
+/* 소형 태블릿 */
+@media screen and (max-width:768px) {
+    #content h3{font-size: 50px; margin-top: 50px; margin-bottom: 50px;}
+    #content h4{font-size: 30px; margin-bottom: 20px;}
+    #content>div p{margin-bottom: 30px;}
+
+    .img_box{float: left; width: 100%;}
+    .img_box img{display: block; float: left; width: 100%; margin-bottom: 30px;}
+    .img_box2{display: none;}
+    .text_box{float: left; width: 100%;}
+
+    .spectre{padding-bottom: 50px;}
+    .skyfall{ padding-bottom: 50px;}
+    .qos{padding-bottom: 50px;}
+    .casino{padding-bottom: 50px; margin-bottom: 100px;}
+
+    .music{right: 7%; top: 70px;}
+    .music2{right: 7%; top: 70px;}
+    .music3{right: 7%; top: 70px;}
+    .music4{right: 7%; top: 70px;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    .music{right: 2%; top: 10px;}
+    .music2{right: 2%; top: 10px;}
+    .music3{right: 2%; top: 10px;}
+    .music4{right: 2%; top: 10px;}
+}
