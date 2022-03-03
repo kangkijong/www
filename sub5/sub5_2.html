@@ -1,0 +1,77 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서비스 안내 - 콜센터</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content2.css">
+    <!-- vendor prefix -->
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- visual -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼">
+            <h3>서비스 안내</h3>
+        </div>
+        <!-- sub_menu -->
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub5_1.html">회원우대서비스</a></li>
+                <li class="current"><a href="./sub5_2.html">콜센터</a></li>
+                <li><a href="./sub5_3.html">경력신고 사전상담</a></li>
+                <li><a href="./sub5_4.html">무료법률상담</a></li>
+                <li><a href="./sub5_5.html">서비스 문의</a></li>
+            </ul>
+        </div>
+        <!-- article -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; 서비스 안내 &gt; <strong>콜센터</strong></div>
+                <h2>콜센터</h2>
+            </div>
+            <div class="content_area">
+                <div class="content_top">
+                    <p>경력신고 및 제증명 발급 등 업무에 대한 문의사항은 <span class="color_blue">"자주묻는질문"</span>을 참고하여 주시기 바랍니다.</p>
+                    <p>원하시는 답변을 얻지 못하신 경우 협회 콜센터로 문의하여 주시면 친절하게 상담·안내해 드리겠습니다.</p>
+                    <img src="./images/callcenter.jpg" alt="">
+                </div>
+                <div>
+                    <h4>콜센터 업무</h4>
+                    <ul>
+                        <li>- 경력신고 및 제증명 발급 등에 관한 전화민원 상담</li>
+                        <li>- 기타 협회 업무에 대한 전화민원</li>
+                        <li>- 예약전화 서비스</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>콜센터 이용시간</h4>
+                    <ul>
+                        <li>- 평일 : 09:00 ~ 18:00</li>
+                        <li>※ 점심시간 11:30 ~ 13:30 은 교대근무로 통화대기가 길어질 수 있으니 참고하시기 바랍니다.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>콜센터 연락처</h4>
+                    <ul>
+                        <li>- 연락처 (TEL) : 1577-5445</li>
+                        <li>- 담당 : 콜센터</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    <? include "../common/sub_footer.html" ?>
+</body>
+</html>

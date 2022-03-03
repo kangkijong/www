@@ -1,0 +1,330 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>경력관리 - 경력 신고</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content1.css">
+    <!-- vendor prefix -->
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- visual -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼">
+            <h3>경력관리</h3>
+        </div>
+        <!-- sub_menu -->
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub2_1.html">경력신고</a></li>
+                <li><a href="./sub2_2.html">건설업체 상호 신고</a></li>
+                <li><a href="./sub2_3.html">증명서 신청</a></li>
+                <li><a href="./sub2_4.html">회비 및 수수료</a></li>
+                <li><a href="./sub2_5.html">경력관리제도 </a></li>
+            </ul>
+        </div>
+        <!-- article -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; 경력관리 &gt; <strong>경력신고</strong></div>
+                <h2>경력신고</h2>
+            </div>
+            <div class="sub_bar">
+                <ul>
+                    <li class="sub_current"><a class="link1" href="#">신고대상</a></li>
+                    <li><a class="link2" href="#">제출서류</a></li>
+                    <li><a class="link3" href="#">작성방법</a></li>
+                    <li><a class="link4" href="#">학과 인정신청</a></li>
+                    <li><a class="link5" href="#">신고자료의 경정</a></li>
+                </ul>
+            </div>
+            <div class="content_area">
+                <div class="content1 con1">
+                    <h4>경력(변경)신고 대상</h4>
+                    <ul>
+                        <li class="first">1. 건설기술인이란?
+                            <ul class="normal">
+                                <li>가. 「건설기술인 등급 인정 교육ㆍ훈련 등에 관한 기준」 별표1의 국가기술자격종목을 취득한 사람 <a class="pdf_open" href="https://homenet.kocea.or.kr:1443/file/Pds/carInfo010_file_01.pdf" target="_blank">국가자격종목 보기</a></li>
+                                <li>나. 다음 어느 하나에 해당하는 학력 등을 갖춘 사람
+                                    <ul>
+                                        <li>1) 「초·중등교육법」 또는 「고등교육법」에 따른 학과의 과정으로서 「건설기술인 등급 인정 및 교육ㆍ훈련 등에 관한 기준」 건설기술관련학과범위에 해당하는 학과의 과정을 이수하고 졸업한 사람
+                                        </li>
+                                        <li>2) 그 밖의 관계 법령에 따라 국내 또는 외국에서 1)과 같은 수준 이상의 학력이 있다고 인정되는 사람
+                                            <ul class="note">
+                                                <li>가. 「사관학교설치법」에 의한 사관학교에서 건설기술관련 교육과정을 이수하여 학사학위를 받은 사람</li>
+                                                <li>나.	「한국과학기술원법」에 의한 과학기술원에서 건설기술관련 교육과정을 이수하여 학사학위를 받은 사람</li>
+                                                <li>다.	「육군3사관학교설치법」에 의한 육군3사관학교에서 건설기술관련 교육과정을 이수하여 학사학위를 받은 사람</li>
+                                            </ul>
+                                        </li>
+                                        <li>3) 국토교통부장관이 정하는 교육기관에서 건설기술관련 교육과정을 6개월 이상 이수한 사람</li>
+                                        <li class="last">4) 「건설기술진흥법」 제60조제1항에 따른 국립·공립 시험기관 또는 품질검사를 대행하는 건설기술용역업자에 소속되어 품질시험 또는 검사 업무를 수행한 사람</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="first">2. 임의신고자란?
+                            <ul class="normal">
+                                <li>건설기술진흥법령에서 정하고 있는 건설기술인에 해당하지 않으나 「건설기술진흥법」 제21조 및 같은법 시행규칙 제18조에 따라 자신의 근무처·경력·학력 및 자격 등의 관리를 원하는 사람을 말합니다.
+                                    <span class="span_blue">※ 임의신고자는 기술등급이 인정되지 않으므로 건설기술경력증이 발급되지 않습니다.</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content2 con2">
+                    <h4>경력(변경) 신고시 제출서류 <a class="shortcut" href="../sub6/sub6_3.html">사례별 신고방법 바로가기</a></h4>
+                    <div>
+                        <dl>
+                            <dt>- 최초 경력신고란</dt>
+                            <dd>건설기술인 또는 임의신고자가 「건설기술진흥법」 제21조 및 같은법 시행규칙 제18조 따라 자신의 근무처·경력·학력 및 자격 등의 관리에 필요한 사항을 최초로 신고하는 것을 말합니다.</dd>
+                            <dt>- 경력 변경신고란</dt>
+                            <dd>최초로 신고한 이후 근무처·학력·자격 또는 기술경력 등의 변경사항을 추가로 신고하는 것을 말합니다.</dd>
+                            <dd><span class="span_red">※ 이직 등으로 새로운 근무처의 입사한 사항을 신고할 때에는 협회에 근무중으로 신고된 근무처(퇴직한 근무처)를 퇴직신고 하신 후 입사신고를 하셔야 합니다.</span></dd>
+                        </dl>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="first">1. 최초로 경력 신고(신규가입)시 제출서류 <a class="submit_list" href="https://homenet.kocea.or.kr:1443/file/Pds/all_suhsik_list01.hwp">제출서류 목록출력</a> <a class="all_download" href="#">전체서식다운로드</a>
+                                <ul>
+                                    <li class="normal">가. 건설기술인인 경우
+                                        <ul>
+                                            <li>(1)	건설기술인경력신고서[시행규칙 별지 제11호 서식] <a class="download" href="https://homenet.kocea.or.kr:1443/file/Pds/101391135203111.hwp">서식다운로드</a></li>
+                                            <li>(2) 경력확인서[시행규칙 별지 제12호서식] <a class="download" href="https://homenet.kocea.or.kr:1443/file/Pds/101658453657312.hwp">서식다운로드</a>
+                                                <ul class="fourth">
+                                                    <li>- 발주자, 인ㆍ허가기관 또는 사용자(대표자)의 확인을 받은 것에 한하며, 발주자는 건설공사 또는 건설기술용역에 참여한 기술경력을 확인 하는 것으로 근무처 이력(입·퇴사)를 같이 신고하는 경우에는 사용자가 근무기간을 확인한 경력확인서를 첨부하여야 합니다.</li>
+                                                    <li>※ 국외 기술경력은 별도의 신고절차에 따라 신고하셔야 됩니다. <a class="shortcut" href="../sub6/sub6_3.html">바로가기</a></li>
+                                                </ul></li>
+                                            <li>(3) 국가기술자격증 사본(해당자 한함)</li>
+                                            <li>(4) 졸업증명서(해당자에 한함)
+                                                <ul class="fourth">
+                                                    <li>※ 재학기간과 경력기간이 중복되는 경우, 반드시 졸업증명서 첨부하여 협회 접수 담당자와 상담 필요</li>
+                                                </ul>
+                                            </li>
+                                            <li>(5) 건설관련 교육수료증(해당자에 한함)</li>
+                                            <li>(6)	증명사진(3.5㎝×4.5㎝) 1매(건설기술경력증 발급신청시 1매 추가)</li>
+                                            <li>(7) 건설기술경력증발급(신규·갱신·재발급)신청서 [시행규칙 별지16호서식] <a class="download" href="https://homenet.kocea.or.kr:1443/file/Pds/10139114224161.hwp">서식다운로드</a></li>
+                                            <li>(8) 경력신고 사항을 증명할 수 있는 서류</li>
+                                            <li>(9) 개인정보 수집·이용 및 제3자 제공동의서[협회서식 제51호] <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=3F838439B4FC40469045DD6995796920&original=per_info_agree_20181018.hwp">서식다운로드</a></li>
+                                            <li>(10) 클린 서약서 <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=D33E8DA139034307BCC8D89CBA29BE88&original=clean_pledge.hwp">서식다운로드</a></li>
+                                            <li>(11) 수수료(특급 :100,000원, 고급·중급·초급·기타 : 90,000원) <a class="shortcut" href="./sub2_4.html">바로가기</a></li>
+                                            <li>(12) 건설관련업체 등록(신규ㆍ변경)신청서(고시 별지 제1호의2서식) <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=10139113061891.hwp&original=%B0%C7%BC%B3%B0%FC%B7%C3%BE%F7%C3%BC%20%B5%EE%B7%CF(%BD%C5%B1%D4%A1%A4%BA%AF%B0%E6)%BD%C5%C3%BB%BC%AD(%BA%B0%C1%F6%20%C1%A61%C8%A3%C0%C72%BC%AD%BD%C4).hwp">서식다운로드</a>
+                                                <ul class="fourth">
+                                                    <li>- 건설기술인이 근무한 소속업체 정보의 등록(신규) 및 변경이 필요한 경우 위 서식과 서식 하단에 기재된 첨부서류를 제출하여야 합니다.</li>
+                                                </ul></li>
+                                            <li class="last">(13) 신고방법 : 온라인, 방문 또는 우편 <a class="shortcut" href="../sub1/sub1_4.html">주소보기</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="normal">나. 임의신고자인 경우 <a class="submit_list" href="https://homenet.kocea.or.kr:1443/file/Pds/all_suhsik_list02.hwp">제출서류 목록출력</a> <a class="all_download" href="http://homenet.kocea.or.kr/file/Pds/all_suhsik_dn02.hwp">전체서식다운로드</a>
+                                        <ul>
+                                            <li>(1) 가. 건설기술인인 경우 제출서류 및 경력관리요청서( 협회서식 제4호) <a class="download" href="https://homenet.kocea.or.kr:1443/file/Pds/10582484486281.hwp">서식다운로드</a>
+                                                <ul class="fourth">
+                                                    <li>※ 임의신고자는 건설기술경력증이 발급되지 않으므로 (6)건설기술경력증발급(신규·갱신·재발급)신청서는 제외</li>
+                                                </ul></li>
+                                            <li class="last">(2) 수수료 - 임의신고자 : 90,000원(입회비 7만원, 연회비 2만원)</li>
+                                        </ul></li>
+                                </ul></li>
+                            <li class="first">2. 경력변경 신고시 제출서류
+                                <ul class="normal">
+                                    <li>(1) 건설기술인 경력변경신고서[시행규칙 별지 제14호서식] <a class="download" href="https://homenet.kocea.or.kr:1443/file/Pds/101391154613911.hwp">서식다운로드</a></li>
+                                    <li>(2) 경력확인서[시행규칙 별지 제12호서식] <a class="download" href="https://homenet.kocea.or.kr:1443/file/Pds/101658453657312.hwp">서식다운로드</a></li>
+                                    <li>(3) 경력변경 사항을 증명할 수 있는 서류
+                                        <ul>
+                                            <li>- 제1호 가목 (7)의 경력신고 사항을 증명하는 서류 중 해당하는 어느 하나를 제출하여야 합니다</li>
+                                        </ul>
+                                    </li>
+                                    <li>(4) 건설관련업체 등록(신규ㆍ변경)신청서(고시 별지 제1호의2서식) <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=10139113061891.hwp&original=%B0%C7%BC%B3%B0%FC%B7%C3%BE%F7%C3%BC%20%B5%EE%B7%CF(%BD%C5%B1%D4%A1%A4%BA%AF%B0%E6)%BD%C5%C3%BB%BC%AD(%BA%B0%C1%F6%20%C1%A61%C8%A3%C0%C72%BC%AD%BD%C4).hwp">서식다운로드</a>
+                                        <ul>
+                                            <li class="last">- 건설기술인이 근무한 소속업체 정보의 등록(신규) 및 변경이 필요한 경우 위 서식과 서식 하단에 기재된 첨부서류를 제출하여야 합니다.</li>
+                                        </ul></li>
+                                    <li><span class="span_blue">※ 기술경력을 인정받지 않고 근무처의 퇴직 사실만을 신고하는 경우 건설기술인 경력변경신고서[시행규칙 별지 제14호서식]와 퇴직을 증명할 수 있는 4대보험(산재, 건강, 고용, 국민연금) 중 어느 하나를 제출하시면 됩니다.</span></li>
+                                    <li>※ 건설기술인 경력변경신고서(시행규칙 별지 제14호서식)의 제출을 생략할 수 있는 신고방법
+                                        <ul>
+                                            <li>▶ 경력확인서상 본인의 성명란에 서명 또는 날인하여 제출하는 경우</li>
+                                            <li>▶ 기술자격, 교육훈련, 상훈을 증명하는 서류 사본 또는 졸업증명서에 본인의 성명을 기재하고 서명(날인)하여 제출 하는 경우</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="span_red">※ 온라인 경력신고 서비스를 통하여 입사, 퇴사, 기술경력, 자격, 교육, 상훈 등을 신고할 수 있습니다.</span></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content3_1 con3">
+                    <div>
+                        <h4>1. 건설기술인 경력신고서 작성예시</h4>
+                        <p><a class="plus" href="https://homenet.kocea.or.kr:1443/user/home/comm/zoom01.do" target="_blank" title="새창에서 열기">확대보기</a></p>
+                        <p><a class="download2" href="https://homenet.kocea.or.kr:1443/file/Pds/101391135203111.hwp">서식 다운로드</a></p>
+                    </div>
+                    <div>
+                        <h4>2. 건설기술인 경력변경신고서 작성예시</h4>
+                        <p><a class="plus" href="https://homenet.kocea.or.kr:1443/user/home/comm/zoom02.do" target="_blank" title="새창에서 열기">확대보기</a></p>
+                        <p><a class="download2" href="https://homenet.kocea.or.kr:1443/file/Pds/101391154613911.hwp">서식 다운로드</a></p>
+                    </div>
+                    <div>
+                        <h4>3. 경력확인서 작성예시[담당업무(책임정도) 별] <a class="shortcut" href="https://homenet.kocea.or.kr:1443/file/Pds/101658453657312.hwp">서식 다운로드</a></h4>
+                        <ul>
+                            <li>가. 시공(참여기술인) <a class="pdf_open" href="https://homenet.kocea.or.kr:1443/file/Pds/career_ex01.pdf" target="_blank" title="새창에서 열기">작성예시 보기</a></li>
+                            <li>나. 시공(현장대리인) <a class="pdf_open" href="https://homenet.kocea.or.kr:1443/file/Pds/career_ex02.pdf" target="_blank" title="새창에서 열기">작성예시 보기</a></li>
+                            <li>다. 안전관리(안전관리자) <a class="pdf_open" href="https://homenet.kocea.or.kr:1443/file/Pds/career_ex03.pdf" target="_blank" title="새창에서 열기">작성예시 보기</a></li>
+                            <li>라. 품질관리(품질관리자) <a class="pdf_open" href="https://homenet.kocea.or.kr:1443/file/Pds/career_ex04.pdf" target="_blank" title="새창에서 열기">작성예시 보기</a></li>
+                            <li>마. 감리(주택법)(총괄감리원/감리(건축법))(상주(건축사보)기술인) <a class="pdf_open" href="https://homenet.kocea.or.kr:1443/file/Pds/career_ex05.pdf" target="_blank" title="새창에서 열기">작성예시 보기</a></li>
+                            <li>바. 설계(사업책임기술인 <a class="pdf_open" href="https://homenet.kocea.or.kr:1443/file/Pds/career_ex06.pdf" target="_blank" title="새창에서 열기">작성예시 보기</a></li>
+                            <li>사. 감독(일반감독) <a class="pdf_open" href="https://homenet.kocea.or.kr:1443/file/Pds/career_ex07.pdf" target="_blank" title="새창에서 열기">작성예시 보기</a></li>
+                            <li>아. 감독(공사감독)/감독(용역감독) <a class="pdf_open" href="https://homenet.kocea.or.kr:1443/file/Pds/career_ex08.pdf" target="_blank" title="새창에서 열기">작성예시 보기</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>경력확인서 작성 시스템</h4>
+                        <p>경력확인서 작성 시스템은 입ㆍ퇴사 또는 기술경력 신고를 직접 입력하여 문서로 저장하고 출력하여 사용자(대표자) 또는 발주청의 확인을 받아 방문접수 하는 시스템입니다</p>
+                    </div>
+                    <div>
+                        <h4>경력확인서 작성방법</h4>
+                        <ul>
+                            <li>01. ①란의 (서명 또는 인)은 건설기술인 본인이 직접 서명 또는 날인 하여야 하며 타인이 이를 위조하는 경우 「형법」 제239조에 따라 처벌 받을 수 있습니다.</li>
+                            <li>02. ②란의 주소가 이미 신고한 주소에서 변경된 경우 새로운 주소를 적고 그 뒤에 (변경요청)이라고 적어 주시기 바랍니다.</li>
+                            <li>03. ③란의 회사명은 등기사항증명서(개인사업장의 경우 사업자등록증)의 상호를 정확히 적어야 하며 상호가 상호변경 또는 흡수합병으로 변경된 경우 새로운 상호를 적고 그 뒤에 (상호변경) 또는 (흡수합병) 중 어느 하나를 적고 관련 증명자료를 제출하여야 합니다.</li>
+                            <li>04. ④란의 건설업종(면허번호 또는 등록번호)은 소속 회사가 소지하고 있는 건설 관련 업종(예: 토목공사업ㆍ건축공사업ㆍ조경공사업ㆍ도장공사업ㆍ엔지니어링사업 등)과 해당 면허번호 또는 등록번호를 적으면 되며, 건설업종을 1개 이상 소지하고 있는 경우 대표업종을 적으면 됩니다.</li>
+                            <li>05. ⑤란의 입사일은 소속 회사의 입사일을 적으면 됩니다.</li>
+                            <li>06. ⑥란의 퇴사일은 소속 회사의 퇴사일을 적으면 되며, 현재 근무 중인 경우 "근무 중"으로 적으면 됩니다.</li>
+                            <li>07. 
+                                <ul>
+                                    <li>가. ⑦란의 참여기간은 해당 건설공사 또는 건설기술용역사업(이하 "건설공사 등"이라 한다)에 실제 참여한 기간을 적으며 계약서 또는 실적증명서 등의 착공일과 준공일을 벗어나지 않도록 적으면 됩니다. 다만, 착공일 이전 수행한 건설공사 업무(계획ㆍ조사 등) 또는 준공일 이후 수행한 건설공사 업무(유지ㆍ관리 등)는 기간 및 담당업무를 분리하여 신고가 가능합니다.</li>
+                                    <li>나. 시공ㆍ현장대리인ㆍ안전관리자ㆍ품질관리자ㆍ감리/상주 등 현장에 상주해서 건설공사업무를 수행한 경우 같은 기간에는 다른 기술경력과 중복하여 신고할 수 없습니다.
+                                    </li>
+                                    <li>다. 작성 예)
+                                        201x년 1월 25일 시작신고
+                                        참여기간: 201x. 1. 10 ~ 근무 중(이 경우 건설공사 참여일인 1월 10일부터 경력신고일인 1월 25일까지 경력 인정)
+                                        201x년 12월 25일 종료신고
+                                        참여기간: 201x. 1. 10 ~ 201x.12. 20(이 경우 시작신고일 다음날인 1월 26일부터 해당 건설공사 등이 종료된 12월 20일까지 경력 추가인정)</li>
+                                </ul>
+                            </li>
+                            <li>08. ⑧란의 참여사업명은 건설기술인이 실제 참여한 건설공사 등의 계약서 또는 실적증명서에 표기된 사업명을 정확히 적으면 됩니다.</li>
+                            <li>09. ⑨란의 발주자(청)는 해당 건설공사 등을 발주한 기관명ㆍ업체명 또는 개인명을 적고 하도급을 받은 경우 발주자 및 원도급자를 모두 적어야 합니다.</li>
+                            <li>10. 
+                                <ul>
+                                    <li>가. ⑩란 및 ⑪란의 직무분야 및 전문분야는 「건설기술 진흥법 시행령」 별표 1 제3호에 따른 직무분야 및 전문분야 중 건설기술인이 실제 수행한 직무 및 전문분야(선택한 직무분야 범위내의 전문분야를 선택하여 적어야 합니다)를 선택하여 적으면 됩니다.</li>
+                                    <li>나. ⑪란의 전문분야는 구체적인 참여사업명이 없는 경력[예: 본사(견적실) 등]기간에는 적을 수 없습니다.</li>
+                                </ul>
+                            </li>
+                            <li>11. ⑫란의 공사종류는 「건설기술 진흥법 시행령」 별표 1 제5호에 따라 국토교통부장관이 고시한 <span class="span_blue">"건설기술인의 등급인정 및 교육ㆍ훈련 등에 관한 기준(이하 "등급인정기준"이라 한다)"</span> 별표 3 제4호 가목 건설공사의 종류 또는 나목 건축물의 용도분류에 따라 적고, 건설기술인이 소속된 건설업체가 「건설산업기본법」에 따른 전문공사를 시공하는 업종을 가지고 있는 경우에는 같은 호 가목 건설공사의 종류 중 대분류 및 소분류를 모두 적어야 합니다.</li>
+                            <li>12. ⑬란의 담당업무는 등급인정기준 별표 3 제3호가목의 건설공사업무란 중 하나를 적으면 됩니다.</li>
+                            <li>13. ⑭란의 직위는 해당 건설공사 등에 참여할 당시의 직위를 적어야 합니다.</li>
+                            <li>14. ⑮란의 책임정도는 건설공사 등에 참여한 책임정도에 따라 등급인정기준 별표 3 제3호나목 책임정도란 중 하나를 적으면 됩니다. 다만, 책임정도에 해당하지 않는 경우 공란으로 남겨 두시면 됩니다.</li>
+                            <li>15. 원형16란의 공법은 해당 건설공사 등에 적용된 공법을 적으면 됩니다.</li>
+                            <li>16. 원형17란의 공사(용역)개요는 건설기술인이 참여한 건설공사 등의 공사규모 등을 적고 공동도급인 경우 지분율에 따라 산정하시면 됩니다.(하도급공사인 경우 직접 시공한 하급 공사분에 대해서만 작성하시면 됩니다)
+                                <ul>
+                                    <li>작성 예) 공사(용역)개요 : 도로확장 L=00Km, B=0m(0차선), 사장교 : L=00m, B=0m, 터널 0개소 : L=0Km, B=0m 등
+                                        ※ 공사(용역)개요 기재는 주요 공종만 최대 70자 이내(공란포함)로 작성하여야 합니다.</li>
+                                </ul>
+                            </li>
+                            <li>17. 원형18란의 공사(용역)금액은 건설기술인이 참여한 건설공사 등의 사업비를 적고 공동도급인 경우 지분율에 따라 산정하시면 됩니다.(하도급공사인 경우 직접 시공한 하급 공사분에 대해서만 작성하시면 됩니다)
+                                <ul>
+                                    <li>작성 예) 공사(용역)금액: 500백만원</li>
+                                </ul>
+                            </li>
+                            <li>18. 원형19란의 착공일 및 원형20란의 준공일(예정일)은 계약서 또는 실적증명서의 용역기간을 적으면 됩니다.</li>
+                            <li>19. 기술경력의 기재사항 중 ⑦, ⑧, ⑩, ⑬, ⑭란은 기술등급 인정을 위해 반드시 작성하여야 합니다.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>경력확인서 발급절차</h4>
+                        <ul>
+                            <li>01. 발주자, 인ㆍ허가기관 또는 사용자(대표자)는 건설기술인이 경력확인서의 발급을 요청한 경우 사업부서와 인사부서에서 확인을 하여야 하며, 규칙 별지 제19호의2 서식의 건설기술인 경력확인 접수(처리)대장에 기록하고 관리하여야 합니다. <a href="https://homenet.kocea.or.kr:1443/file/Pds/career_ex09.pdf" class="download" target="_blank" title="새창에서 열기">작성예시 보기</a></li>
+                            <li>02. 사업부서는 착수계ㆍ준공계ㆍ공사대장ㆍ설계도서ㆍ감독명령부 또는 업무분장 등을 근거로 기술경력 및 참여기간을 확인하여야 합니다.</li>
+                            <li>03. 인사부서는 임명대장 또는 인사기록카드 등을 근거로 사업부서 재직기간을 확인하여야 합니다.</li>
+                            <li>04. 발주자, 인ㆍ허가기관 또는 사용자(대표자)는 사업부서 및 인사부서의 최종 확인 후 경력확인서를 발급하여야 합니다.</li>
+                            <li>05. 발주자 또는 인ㆍ허가기관은 민원인(건설기술인)이 경력확인서 발급을 요청하는 경우 기술경력 및 참여기간을 확인한 담당자와 직인을 날인한 담당자에게 각각 사업부서 및 인사부서 확인란의 해당 항목을 기재하도록 하여야 합니다</li>
+                            <li class="last">06. 경력확인서 세부 발급 절차</li>
+                        </ul>
+                        <table>
+                            <tr>
+                                <th>신고자료 작성<br>↓</th>
+                                <td>ㆍ건설기술인 또는 소속업체에서 신고자료를 작성<br>
+                                    ＊소속업체에서 신고자료를 작성한 경우 해당 건설기술인의 확인을 받아야 함</td>
+                            </tr>
+                            <tr>
+                                <th>발주자, 인ㆍ허가기관 또는 사용자(대표자) 기술경력 확인<br>↓</th>
+                                <td>
+                                    <ul>
+                                        <li>(사업부서) 착수계, 준공계, 공사대장, 업무분장, 설계도서, 감독명령부 등으로 확인</li>
+                                        <li>(인사부서) 명령부 대장, 인사기록카드 등으로 확인</li>
+                                        <li>＊사업부서, 인사부서가 별도로 없는 기관은 자체적으로 조직성격에 따라 확인</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>경력확인서 발급<br>↓</th>
+                                <td>발주자, 인ㆍ허가기관 또는 사용자(대표자)는 사업부서 및 인사부서의 최종 확인 후 경력확인서를 발급</td>
+                            </tr>
+                            <tr>
+                                <th>경력확인 접수 (처리)대장 관리</th>
+                                <td>발주자, 인ㆍ허가기관 또는 사용자(대표자)는 경력확인서의 발급을 신청받거나 처리한 경우 규칙 별지 제19호의2 서식의 건설기술인 경력관리 접수처리(대장)을 작성하고 관리</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <h4>표준분류표 <a href="https://homenet.kocea.or.kr:1443/file/Pds/pds_standard_01.pdf" class="submit_list" target="_blank" title="새창에서 열기">바로보기</a></h4>
+                    </div>
+                </div>
+                <div class="content4 con4">
+                    <h4>건설기술관련학과의 인정신청</h4>
+                    <ul>
+                        <li>가. 「건설기술인 등급 인정 및 교육ㆍ훈련 등에 관한 기준」 제3조제2항 별표2 비고 제3호 및 제5조 별표 3 제2호 나목 비고2)에 의한 건설기술관련학과 인정을 신청하고자 하는 경우에는 동 기준 별지 제1호 서식의 건설기술관련학과 심의신청서 <a href="https://homenet.kocea.or.kr:1443/file/Pds/10172941198251.hwp" class="download">서식다운로드</a> 와 다음의 서류를 제출하여야 합니다.
+                            <ul>
+                                <li>(1)	건설기술관련학과로 인정받고자 하는 학과의 졸업증명서 및 성적증명서(해당자에 한합니다)</li>
+                                <li>(2)	(1)의 서류로 갈음할 수 있는 서류(해당자에 한합니다)</li>
+                            </ul>
+                        </li>
+                        <li>나.	처리기간 - 건설기술관련학과 심의신청서(기준 별지 제1호 서식) <a href="https://homenet.kocea.or.kr:1443/file/Pds/10172941198251.hwp" class="download">서식다운로드</a> 를 접수한 날부터 10일 이내</li>
+                    </ul>
+                    <p><a href="../sub6/sub6_3.html" class="see_in">상세내용보기</a></p>
+                </div>
+                <div class="content5 con5">
+                    <h4>신고자료의 경정 신청</h4>
+                    <p class="last">(건설기술인의 등급 인정 및 교육ㆍ훈련 등에 관한 기준 제 14조 및 15조 관련)</p>
+                    <ul>
+                        <li class="first">가.	신고자료의 경정
+                            <ul class="normal">
+                                <li>(1)	건설기술인의 오신고 등으로 신고내용에 경정이 필요한 경우 관련 증빙서류를 첨부하여 경정을 신청할 수 있습니다. (다만, 발주청에서 근무한 경력을 경정하려는 경우에는 해당 발주청에서 근무한 부서 등을 확인 할 수 있는 인사기록부와 해당 업무수행을 입증할 수 있는 업무분장확인서, 감독명령부 등의 증빙서류를 첨부하여야 합니다.)</li>
+                                <li>(2)	직권경정
+                                    <ul>
+                                        <li>㈎	정부·법원·지방자치단체 및 공공단체에서 사실이 확인되었거나 처분이 통보된 사항</li>
+                                        <li>㈏	오기, 착오, 오입력 등이 명백한 경우</li>
+                                        <li>㈐	국민연금·국민건강보험 또는 고용보험가입확인서 등의 객관적 자료를 첨부하여 입증되는 경우<br>다만, 입사 또는 퇴사신고 시 이미 국민연금 등의 자료를 제출한 경우에는 제외한다.</li>
+                                    </ul>
+                                </li>
+                                <li>(3)	경력관리위원회 심의경정(직권경정을 제외한 기타 경정사항)</li>
+                                <li class="last">(4)	이미 경정된 사항에 대하여 또다시 경정할 수 없습니다. 다만, 법원의 최종판결, 발주청 또는 국가행정기관 등의 확인에 따라 경정하는 경우에는 그러하지 않습니다.</li>
+                            </ul>
+                        </li>
+                        <li class="first">나.	기타
+                            <ul class="normal">
+                                <li>- 접수 후 경력관리위원회 심의결과에 따라 10일 이내에 처리결과를 통지합니다. 다만, 사안에 따라 객관적인 확인이 필요한 경우 필요한 관련서류를 추가로 요청할 수 있습니다.</li>
+                                <li>- 이미 경정된 사항에 대하여는 또 다시 경정할 수 없습니다. 다만, 법원의 최종판결, 발주청 또는 국가행정기관 등의 확인에 따라 경정하는 경우에는 그러하지 아니합니다.</li>
+                                <li>- 심의 경정의 객관성을 유지하기 위하여 공사 발주기관 및 인·허가 기관에 조회·확인을 요청할 수 있으며, 거짓신고는 관계법령에 의하여 불이익을 받을 수 있습니다.</li>
+                                <li class="last">- 건설기술관리법령 또는 시설물의 안전관리에 관한 특별법령에 의한 사업수행능력평가에 활용하기 위하여는 발주청의 확인을 받은 기술경력을 건설기술인 경력관리수탁기관에 신고하여야 합니다.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="span_blue">※ 신고자료의 경정과 관련하여 자세한 사항은 <a href="../sub6/sub6_3.html" class="span_red a_hover">[상세답변]</a>을 참조하시기 바랍니다.</p>
+                </div>
+            </div>
+        </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="./js/slide_move.js"></script>
+    <!-- <script src="./js/btn.js"></script> -->
+    <!-- <script src="./js/faq.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,260 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>협회소개 - 협회 현황</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content2.css">
+    <!-- vendor prefix -->
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- visual -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼">
+            <h3>협회소개</h3>
+        </div>
+        <!-- sub_menu -->
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub1_1.html">인사말</a></li>
+                <li class="current"><a href="./sub1_2.html">협회 현황</a></li>
+                <li><a href="./sub1_3.html">부서별업무</a></li>
+                <li><a href="./sub1_4.html">찾아오시는길</a></li>
+            </ul>
+        </div>
+        <!-- article -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; 협회소개 &gt; <strong>협회 현황</strong></div>
+                <h2>협회 현황</h2>
+            </div>
+            <div class="content_area">
+                <div class="sub_bar">
+                    <ul>
+                        <li><a class="link1" href="#">조직 및 현황</a></li>
+                        <li><a class="link2" href="#">설립목적 및 연혁</a></li>
+                    </ul>
+                </div>
+                <div class="content1_1 con1">
+                    <h4>조직</h4>
+                    <div class="organization">
+                        <ul>
+                            <li>
+                                <h5>총회</h5>
+                                <ul>
+                                    <li>회장
+                                        <ul>
+                                            <li>이사회</li>
+                                        </ul>
+                                    </li>
+                                    <li>감사
+                                        <ul>
+                                            <li>감사실</li>
+                                        </ul>
+                                    </li>
+                                    <li>상근부회장
+                                        <h6>기획본부</h6>
+                                        <ul>
+                                            <li>기획실
+                                                <ul>
+                                                    <li>기획팀</li>
+                                                    <li>정책팀</li>
+                                                    <li>홍보팀</li>
+                                                </ul>
+                                            </li>
+                                            <li>운영지원실
+                                                <ul>
+                                                    <li>총무팀</li>
+                                                    <li>경리팀</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h6>경력관리본부</h6>
+                                        <ul>
+                                            <li>경력관리실
+                                                <ul>
+                                                    <li>경력제도팀</li>
+                                                    <li>경력지원팀</li>
+                                                    <li>콜센터</li>
+                                                </ul>
+                                            </li>
+                                            <li>등록관리실
+                                                <ul>
+                                                    <li>등록팀</li>
+                                                    <li>온라인등록팀</li>
+                                                    <li>증명발급팀</li>
+                                                </ul>
+                                            </li>
+                                            <li>지회
+                                                <ul>
+                                                    <li>부산지회</li>
+                                                    <li>광주지회</li>
+                                                    <li>대구지회</li>
+                                                    <li>대전지회</li>
+                                                    <li>인천지회</li>
+                                                    <li>수원지회</li>
+                                                    <li>춘천지회</li>
+                                                    <li>청주지회</li>
+                                                    <li>전주지회</li>
+                                                    <li>창원지회</li>
+                                                    <li>의정부지회</li>
+                                                    <li>제주지회</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h6>회원복지본부</h6>
+                                        <ul>
+                                            <li>회원복지실
+                                                <ul>
+                                                    <li>회원복지팀</li>
+                                                    <li>교육지원팀</li>
+                                                    <li>사업개발팀</li>
+                                                </ul>
+                                            </li>
+                                            <li>정보관리실
+                                                <ul>
+                                                    <li>회원정보관리팀</li>
+                                                    <li>정보지원팀</li>
+                                                </ul>
+                                            </li>
+                                            <li>건설기술인일자리지원센터</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <img src="./images/content1/sub2_1.jpg" alt="조직표"> -->
+                </div>
+                <div>
+                    <h4>임·직원 현황</h4>
+                    <p>(2020.12.31 기준, 단위 : 명)</p>
+                    <div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>정원</th>
+                                    <th>현원</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>계</th>
+                                    <td>166</td>
+                                    <td>161</td>
+                                </tr>
+                                <tr>
+                                    <th>임원</th>
+                                    <td>5</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <th>직원</th>
+                                    <td>161</td>
+                                    <td>156</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <h4>회원현황</h4>
+                    <p>(2021.06.30 기준, 단위 : 명)</p>
+                    <div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>계</th>
+                                    <th>특급</th>
+                                    <th>고급</th>
+                                    <th>중급</th>
+                                    <th>초급</th>
+                                    <th>기타</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>881,527</td>
+                                    <td>175,517</td>
+                                    <td>90,108</td>
+                                    <td>87,481</td>
+                                    <td>434,943</td>
+                                    <td>93,478</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="content2_1 con2">
+                    <h4>설립목적</h4>
+                    <ul>
+                        <li>- 회원의 품위 유지 및 복리증진</li>
+                        <li>- 건설공사의 견실시공 및 질관리의 향상</li>
+                        <li>- 국가건설기술 진흥 및 발전에 기여</li>
+                    </ul>
+                </div>
+                <div class="content2_2">
+                    <h4>주요업무</h4>
+                    <ul>
+                        <li class="first"><span>고유업무</span></li>
+                        <li>- 건설기술인의 품위유지 및 자질향상을 위한 업무</li>
+                        <li>- 건설기술인의 복리증진 및 권익옹호를 위한 업무</li>
+                        <li>- 건설기술인의 관리 및 자질향상을 위한 연구업무</li>
+                        <li class="last">- 협회의 홍보 및 간행물 발행</li>
+                        <li class="first"><span>정부 수탁업무(건진법제82조제2항)</span></li>
+                        <li>- 건설기술인의 경력신고사항의 접수</li>
+                        <li>- 건설기술경력증 발급 및 기록사항의 유지관리</li>
+                        <li class="last">- 건설기술인 경력확인</li>
+                    </ul>
+                </div>
+                <div class="content2_3">
+                    <h4>연혁</h4>
+                    <ul>
+                        <li>· <span>1985. 05. </span>&nbsp;건설시공기술사 친목회</li>
+                        <li>· <span>1987. 11. </span>&nbsp;사단법인 한국건설기술인협회 발기인대회</li>
+                        <li>· <span>1987. 12. </span>&nbsp;사단법인 한국건설기술인협회 설립</li>
+                        <li>· <span>1989. 01. </span>&nbsp;건설기술인지 창간호 발간</li>
+                        <li>· <span>1995. 06. </span>&nbsp;한국건설기술인협회 발기인대회 및 창립총회</li>
+                        <li>· <span>1995. 08. </span>&nbsp;건설기술관리법에 의한 법정단체 설립</li>
+                        <li>· <span>1997. 01. </span>&nbsp;1997. 01. 부산·광주지회 개소</li>
+                        <li>· <span>1997. 07. </span>&nbsp;대구·대전지회개소</li>
+                        <li>· <span>1999. 08. </span>&nbsp;인천·수원·청주·전주·춘천지회 및 제주출장소 개소</li>
+                        <li>· <span>2000. 01. </span>&nbsp;제1회 건설기술인대상 시상식 개최</li>
+                        <li>· <span>2001. 03. </span>&nbsp;건설기술인의날 제정</li>
+                        <li>· <span>2002. 01. </span>&nbsp;건설기술인대상 협회포상에서 정부포상으로 격상</li>
+                        <li>· <span>2007. 09. </span>&nbsp;창원지회 개소</li>
+                        <li>· <span>2010. 03. </span>&nbsp;건설기술인 고용지원센터 개설</li>
+                        <li>· <span>2014. 11. </span>&nbsp;건설기술인 일자리정보센터 개소 및 건설워크넷 운영</li>
+                        <li>· <span>2015. 01. </span>&nbsp;'건설기술인 사회적 위상제고' 원년의 해 선포</li>
+                        <li>· <span>2017. 07. </span>&nbsp;의정부지회 개소</li>
+                        <li>· <span>2017. 12. </span>&nbsp;단체표창(행정안전부장관, 포항지진 대응)</li>
+                        <li>· <span>2018. 10. </span>&nbsp;건설기술인 권리헌장 공표</li>
+                        <li>· <span>2020. 01. </span>&nbsp;협회지 제호 변경(건설기술인 → 건설과 사람)</li>
+                        <li>· <span>2020. 09. </span>&nbsp;건설기술인의 날 20주년 기념식(국무총리 참석)</li>
+                        <li>· <span>2020. 11. </span>&nbsp;고용노동부 민간고용서비스 우수기관 인증</li>
+                        <li>· <span>2020. 12. </span>&nbsp;대한적십자사 회원유공장 명예장 수상(코로나19 성금 기탁)</li>
+                        <li>· <span>2020. 12. </span>&nbsp;건설인정책연구원과 공동으로 교육관리기관 지정</li>
+                        <li>· <span>2021. 01. </span>&nbsp;단체표창(대통령, 국가안전대진단 참여)</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="./js/slide_move.js"></script>
+    <!-- <script src="./js/scroll.js"></script> -->
+</body>
+</html>

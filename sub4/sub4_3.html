@@ -1,0 +1,97 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교육·훈련 - 사이버연수원</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub4common.css">
+    <link rel="stylesheet" href="./css/sub4_content3.css">
+    <!-- vendor prefix -->
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- visual -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼">
+            <h3>교육·훈련</h3>
+        </div>
+        <!-- sub_menu -->
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub4_1.html">교육훈련제도</a></li>
+                <li><a href="./sub4_2.html">교육훈련 대행기관</a></li>
+                <li class="current"><a href="./sub4_3.html">사이버연수원</a></li>
+            </ul>
+        </div>
+        <!-- article -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; 교육·훈련 &gt; <strong>사이버연수원</strong></div>
+                <h2>사이버연수원</h2>
+            </div>
+            <div class="content_area">
+                <div class="content_top">
+                    <p>2021년 1월 1일부터 새로운 운영 업체 러닝팩토리(주)로 변경 되어 <span class="color_blue">신규 수강신청은 [신-사이버연수원]</span>으로,</p>
+                    <p><span class="color_blue">복습학습 및 교육 수료증 발급은 [구-사이버연수원]</span>을 통해 이용하시기 바랍니다.</p>
+                </div>
+                <div class="service">
+                    <h4>이용절차</h4>
+                    <div class="service_background">
+                        <div class="service_1">
+                            <img src="./images/home.png" alt="홈페이지">
+                            <dl>
+                                <dt>협회홈페이지</dt>
+                                <dd>(로그인)</dd>
+                            </dl>
+                        </div>
+                        <div class="service_2">
+                            <img class="left" src="./images/left.png" alt="">
+                            <img class="right" src="./images/right.png" alt="">
+                        </div>
+                        <div class="service_3">
+                            <div>
+                                <img class="left" src="./images/lab.png" alt="현대경제연구원">
+                                <dl class="left2">
+                                    <dt>(구) 사이버연수원 현대경제연구원</dt>
+                                    <dd>복습학습 및 교육수료증 발급</dd>
+                                </dl>
+                                <img class="right" src="./images/factory.png" alt="러닝팩토리">
+                                <dl class="right2">
+                                    <dt>(신) 사이버연수원 러닝팩토리</dt>
+                                    <dd>신규 수강신청</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4>이용안내</h4>
+                    <dl>
+                        <dt>1. (구)사이버연수원 : 현대경제연구원</dt>
+                        <dd>- 교육 복습 가능 : 수강 종료 후 1년이 경과하지 않은 회원</dd>
+                        <dd>- 교육 수료증 발행 : (교육기간 2017.1.1. ~ 2020.12.31.)</dd>
+                        <dt>2. (신)사이버연수원 : 러닝팩토리</dt>
+                        <dd>- 신규 수강 신청 : 2021. 1. 1.</dd>
+                        <dd>- 교육 수료증 발행 : (교육기간 2021.1.1. 이후)</dd>
+                        <dd>- 운영기간 : 2021.1.1. ~ 현재</dd>
+                    </dl>
+                </div>
+                <div class="last">
+                    <h4>문의 : 교육지원팀(02-3416-9431)</h4>
+                </div>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+</body>
+</html>

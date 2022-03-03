@@ -1,0 +1,42 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-회사소개 내용 */
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 100px;}
+#content .line_map{font-family: 'Nanum Gothic', sans-serif; position: absolute; right: 15px; top: 15px;}
+#content h2{font-weight: 700; text-align: center; font-size: 50px; margin-bottom: 100px;}
+
+#content .content_area{width: 1200px; margin: 0 auto; overflow: hidden;}
+
+#content .sub_bar{width: 1200px; margin: 0 auto; margin-bottom: 150px; overflow: hidden; }
+#content .sub_bar li{float: left ; width: 598px; border: 1px solid #ccc;}
+#content .sub_bar li a{display: block; font-size: 20px; text-align: center; padding: 15px 0;}
+#content .sub_bar li a:hover{background: #109cf4; font-weight: 700; color: #fff;}
+
+#content .content_area div{position: relative; width: 1200px; font-size: 16px; line-height: 2em; text-align: justify; margin-bottom: 150px;}
+#content h4{display: block; font-size: 30px; font-weight: 700; color: #333; margin-bottom: 50px; padding: 0 0 0 20px;}
+#content h4::before{content: ''; display: block; width: 10px; height: 30px; background: #001d6f; position: absolute; top: 3px; left: 0;}
+
+.color_blue{color: #109cf4;}
+.color_orange{color: #ff6600; margin-left: 20px; text-indent: -20px;}
+.li_indent{margin-left: 20px; text-indent: -20px;}
+.li_last{margin-bottom: 20px;}
+
+.content_top{margin-bottom: 150px;}
+.content_top p{font-size: 20px; text-align: center; line-height: 2em;}
+
+.faq{width:1200px; font-size: 16px; margin-bottom: 150px;}  
+.faq .hgroup{position: relative; top: -40px;}
+.faq .hgroup .all{position: absolute; top: 5px; right: 20px; font-size: 20px;}  
+
+.faq .q{border-top: 1px solid #ddd}  
+.faq .q a.trigger{display: block; padding: 20px 20px; background: #fafafa; color: #333;}  
+.faq .hide .q a.trigger{font-weight: 400; background: none}  
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus{background: #109cf4; color: #fff; font-weight: 700;}  
+.faq .a{padding: 20px 20px; line-height: 2em; overflow: hidden; text-align: justify; display: none; background: #fafafa;} 
+
+.hidden{display: block; position: absolute; left: -1000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff;}
+
+
+

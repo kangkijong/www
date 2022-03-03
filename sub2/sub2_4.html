@@ -1,0 +1,300 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>경력관리 - 회비 및 수수료</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content4.css">
+    <!-- vendor prefix -->
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- visual -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼">
+            <h3>경력관리</h3>
+        </div>
+        <!-- sub_menu -->
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub2_1.html">경력신고</a></li>
+                <li><a href="./sub2_2.html">건설업체 상호 신고</a></li>
+                <li><a href="./sub2_3.html">증명서 신청</a></li>
+                <li class="current"><a href="./sub2_4.html">회비 및 수수료</a></li>
+                <li><a href="./sub2_5.html">경력관리제도 </a></li>
+            </ul>
+        </div>
+        <!-- article -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; 경력관리 &gt; <strong>회비 및 수수료</strong></div>
+                <h2>회비 및 수수료</h2>
+            </div>
+            <div class="content_area">
+                <div class="sub_bar">
+                    <ul>
+                        <li><a class="link1" href="#">회비 및 수수료 체계</a></li>
+                        <li><a class="link2" href="#">연회비 및 수수료 납입방법</a></li>
+                        <li><a class="link3" href="#">장기연체로 인한 자격상실 및 재가입 방법</a></li>
+                    </ul>
+                </div>
+                <div class="con1">
+                    <div>
+                        <h4>최초경력신고 및 변경신고시</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th rowspan="2">구분</th>
+                                    <th rowspan="2">종류</th>
+                                    <th rowspan="2">납부시기</th>
+                                    <th colspan="3">수수료</th>
+                                </tr>
+                                <tr>
+                                    <th>특급</th>
+                                    <th>초~고급, 기타</th>
+                                    <th>경력자<br>(임의신고자)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2">정회원 또는 준회원 중 회원가입자</td>
+                                    <td>입회비</td>
+                                    <td class="justify">- 최초 경력신고 또는 회원 가입일</td>
+                                    <td>70,000</td>
+                                    <td>70,000</td>
+                                    <td>70,000</td>
+                                </tr>
+                                <tr>
+                                    <td>연회비</td>
+                                    <td class="justify">- 최초경력신고일 또는 회원가입일이 속하는 달 말일까지</td>
+                                    <td>30,000</td>
+                                    <td>20,000</td>
+                                    <td>20,000</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3">경력관리자</td>
+                                    <td>등록비</td>
+                                    <td class="justify">- 최초 경력신고일</td>
+                                    <td colspan="2">50,000</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>경력신고비</td>
+                                    <td class="justify">- 최초경력신고 및 변경신고일<br>
+                                        - 직권경정 신고일</td>
+                                    <td colspan="2">6,000원/건<br>(상한액 90,000원)</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>심의경정</td>
+                                    <td class="justify">- 심의경정 신고일</td>
+                                    <td colspan="2">30,000원/건<br>(상한액 150,000원)</td>
+                                    <td>-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ul>
+                            <li>- 최초 연회비는 신규 등록 서류 접수 시 납부하며, 이후 연회비는 매년 협회 회원 가입월의 말일까지 납부하여야 합니다.(신규가입의 경우 최초 연회비 납부일자와 협회 가입 일자는 상이할 수 있습니다)</li>
+                            <li>- 연회비 납부 기한
+                                <ul>
+                                    <li>연회비 납부기한은 최초 경력신고일 또는 회원 가입일이 속하는 달의 말일입니다.</li>
+                                    <li><span class="color_blue">최초 경력신고일 또는 회원 가입일이 2020년 3월 5일인 경우 연회비 납부기한은 2021년 3월 31일까지입니다.</span></li>
+                                </ul>
+                            </li>
+                            <li>- “경력관리자”는 경력관리 이외에 우리협회에 회원가입자에게 제공하는 전산교육 등 각종 교육·현장견학·인터넷 서비스 및 무료취업센타 이용 등 각종 서비스가 제한되며 반드시 회원가입신청서에 “경력관리자”로 표기하여 제출하시기 바랍니다.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>제증명 발급 수수료</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>구분</th>
+                                    <th>단위</th>
+                                    <th>수수료</th>
+                                    <th>비고</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>건설기술경력증</td>
+                                    <td>1부</td>
+                                    <td>무료</td>
+                                    <td class="justify">- 최초 발급에 한하여 무료<br>
+                                        - 재발급 : 8,000원/1부</td>
+                                </tr>
+                                <tr>
+                                    <td>건설기술인 경력증명서</td>
+                                    <td>1부</td>
+                                    <td>1,000원</td>
+                                    <td class="justify">기본수수료 : 1,000원(3매 이내)<br>
+                                        3매를 초과하는 경우 1,500원/1부</td>
+                                </tr>
+                                <tr>
+                                    <td>건설기술인 보유증명서</td>
+                                    <td>1부당/10명</td>
+                                    <td>2,000원</td>
+                                    <td class="justify">기본수수료 : 2,000원(10명이내)<br>
+                                        10명을 초과하는 경우 1인당 200원추가(상한금액 15만원)<br>
+                                        12명/2부 신청시 : 2,400×2=4,800원</td>
+                                </tr>
+                                <tr>
+                                    <td>참여기술인 경력사항확인서</td>
+                                    <td>1인당</td>
+                                    <td>-</td>
+                                    <td class="justify">건설기술인 경력증명서의 수수료와 같음</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <h4>종신회비 납부</h4>
+                        <ul>
+                            <li>- 연회비의 12개년 분에 상당하는 금액을 일시에 납부</li>
+                            <li>- 종신회비 납부 후 차년도부터 연회비 납부 면제</li>
+                            <li>- 미납된 연회비가 없어야 종신회비 납부가 가능합니다.</li>
+                            <li>- 납부방법: 본회 또는 지회를 방문하여 납부하거나, 아래의 계좌로 무통장입금 하여 납부하실 수 있습니다. <span class="color_red">[고정계좌(농협)로는 종신회비 납부불가]</span>
+                                <ul>
+                                    <li><strong>국민은행 : 818-01-0072-733 (예금주 : 한국건설기술인협회)</strong></li>
+                                    <li><span class="color_blue">무통장 입금시 꼭 경리팀(02-3416-9231)으로 연락하여 종신회비 납부를 통지하셔야 처리됩니다.</span></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>연회비 감면</h4>
+                        <ul>
+                            <li class="line_space">1. 고령회원 감면
+                                <ul>
+                                    <li>- 만 70세이상 회원의 만70세 후 연회비는 전액감면</li>
+                                    <li>- 만 65세이상 회원이 10년이상 회비를 납부한 경우 전액면제</li>
+                                    <li>- 만 65세이상 회원이 10년미만 회비를 납부한 경우 50%면제
+                                        <ul>
+                                            <li>※ 만65세 이상의 회원의 감면은 직전년도의 회비까지 미납이 없어야 합니다.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="line_space">2. 국민기초생활수급자 및 중증장애인의 감면
+                                <ul>
+                                    <li>- 「국민기초생활 보장법 시행규칙」제40조에 따른 “수급자증명서” 「장애인복지법」제32조에 따른 “장애인등록증” 등 국민기초생활수급자 및 중증장애인임을 확인 할 수 있는 서류 사본을 “연회비 감면 신청서”와 같이 경리팀 제출</li>
+                                    <li>- 신청 당해연도 연회비를 포함한 최대 2년 이내에서 감면</li>
+                                </ul>
+                            </li>
+                            <li class="line_space">3. 군 복무기간의 감면
+                                <ul>
+                                    <li>- 군입대자로서 「건설기술진흥법 시행령」 [별표1] 제5호에 따라 국토교통부장관이 고시한 건설기술인의 등급 및 경력인정등에 관한 기준 제8조 제6항의 건설공사 업무를 수행하지 않는 회원</li>
+                                    <li>- 「병역법 시행규칙」제5조에 따른 “병적증명서“ 등 군복무기간을 확인 할 수 있는 서류 사본을 “연회비 감면 신청서”와 같이 경리팀 제출</li>
+                                    <li>- 최대 2년 이내에서 감면</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con2">
+                    <div>
+                        <h4>연회비 납부방법</h4>
+                        <p><span class="very_strong">회비납부는 어떻게 하나요?</span></p>
+                        <p class="line_stong line_space">회비는 다음과 같은 방법으로 납부하실 수 있습니다</p>
+                        <ul>
+                            <li class="line_space">1. 방문납부
+                                <ul>
+                                    <li>- 본회 및 12개 지회에서 현금 또는 카드로 납부 가능합니다.</li>
+                                </ul>
+                            </li>
+                            <li class="line_space">2. 협회 홈페이지 및 모바일 납부(신용카드, 계좌이체(인증서필요), 간편결제 등(토스 등)
+                                <ul>
+                                    <li>● 홈페이지 납부
+                                        <ul>
+                                            <li>연회비 납부, 온라인 신규 등록ㆍ재가입 신고 서비스를 이용하여 홈페이지에서 온라인 결제가 바로 진행됩니다.</li>
+                                            <li>- 연회비납부</li>
+                                            <li>- 온라인 최초경력신고 및 결제</li>
+                                            <li>- 온라인 재가입 신고 및 결제</li>
+                                        </ul>
+                                    </li>
+                                    <li>● 모바일 앱 납부
+                                        <ul>
+                                            <li>연회비 납부</li>
+                                            <li>- 모바일 앱 접속(하단) → 연회비/영수증 에서 성명, 생년월일로 조회 후 온라인 결제가 바로 진행됩니다.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="line_space">3. 고정(가상)계좌 납부
+                                <ul>
+                                    <li>- 고정계좌란 회원님마다 다르게 부여된 가상계좌번호로 입금 즉시 자동 수납처리 됩니다.</li>
+                                    <li>- 고정계좌번호 확인</li>
+                                    <li>- 협회 홈페이지 접속(우측 상단) → 빠른메뉴 01 → 연회비납부/영수증발급 → 생년월일, 성명 입력 후 조회 → 미납액 및 고정계좌번호(화면 하단)확인</li>
+                                </ul>
+                            </li>
+                            <li class="line_space">4. 지로납부
+                                <ul>
+                                    <li>- 은행납부 : 전국 시중·지방은행 및 우체국, 농협, 수협에서 납부 가능합니다.
+                                        <ul>
+                                            <li>※ 납입기한 이후에도 납부 가능하고, 지로영수증에 표기된 고정계좌로 입금 즉시처리</li>
+                                        </ul>
+                                    </li>
+                                    <li>- 인터넷 납부 : 금융결제원 인터넷지로 사이트(www.giro.or.kr)접속 → 납부고객용의 일반지로납부 클릭 → 이후 절차에 따라 진행하여 납부하시기 바랍니다.</li>
+                                    <li>- 지로 전자납부번호 조회</li>
+                                    <li>- 지로용지 발송요청 </li>
+                                    <li>- 지로납부는 납입처리까지 약 3~5일 소요됩니다.
+                                        <ul>
+                                            <li>※ 온라인 경력신고 및 증명발급 이용을 하실 경우 다른 방법으로 납부하여 주시기 바랍니다.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="line_space">5. 자동이체 납부
+                                <ul>
+                                    <li>- 신청방법
+                                        <ul>
+                                            <li>① 홈페이지에 로그인하여 회원정보수정 메뉴에서 신청접수(인증서 필요)</li>
+                                            <li>② 자동이체신청서와 통장사본을 본회에 직접 또는 우편 접수</li>
+                                        </ul>
+                                    </li>
+                                    <li>- 자동이체일 : 매년 회비 납부월의 10일(잔액 부족시 17일, 24일 재출금되며 자동이체일이 휴일인 경우 다음 영업일 출금)</li>
+                                    <li>- 유의사항 : 신청 시 당해 연도 연회비 납기일까지 미납회비가 없어야함.</li>
+                                    <li>- 자동이체신청(로그인 후-> "회원정보수정" 이나 "마이페이지" 메뉴에서 신청가능)</li>
+                                    <li>- 자동이체신청서</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con3">
+                    <div>
+                        <h4>회원 자격 상실</h4>
+                        <p>정관 제66조(회원의 자격상실 및 회복) 제1항 제6호의 규정에 따라 3년이상 회비를 납부하지 아니한 때에는 경력신고일 또는 회원가입일이 속하는 달 익월 1일부로 회원자격이 상실 됩니다</p>
+                        <p>다만, 연회비 장기연체에 의하여 회원자격 상실된 회원이 상실된 날로부터 2년 이내에 체납한 회비를 납부한 경우에는 회원자격이 바로 회복 됩니다.</p>
+                    </div>
+                    <div>
+                        <h4>회원 자격 상실자 재가입 방법</h4>
+                        <p>정관 제69조(회원의 재가입) 2항의 규정에 따라 연회비 장기연체로 회원의 자격이 상실된 자가 협회의 회원으로 재가입할 때에는 신규 회원의 가입 절차에 따라 가입신청서류 제출 및 입회비, 연회비 등을 납부 하여야 하며 온라인 및 우편으로 재가입 신고를 할 수 있습니다.</p>
+                    </div>
+                    <div>
+                        <h4>온라인 재가입 신고</h4>
+                        <p>협회 홈페이지 신규/재가입신고를 통하여 재가입신고를 할 수 있으며 신규 입회비 및 연회비도 온라인으로 바로 납부 할 수 있습니다.</p>
+                    </div>
+                    <div>
+                        <h4>우편 재가입 신고</h4>
+                        <p>우편을 통해 재가입 서류를 접수 하는 경우 입회비 및 연회비 납부는 우편 접수 완료 후 협회 홈페이지 접속(우측 상단) → 빠른메뉴 02 → 우편·방문 접수조회 를 통한 온라인 납부 또는 별도의 결제 방법을 안내 받아 납부 할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+    <script src="./js/slide_move.js"></script>
+</body>
+</html>

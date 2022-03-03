@@ -1,0 +1,49 @@
+body{background: url(../images/member_bg.jpg) no-repeat center center; background-size: cover;
+    background-attachment: fixed;}
+.logo{margin: 20px auto; display: block; width: 200px; height: 200px;}
+#content{width: 900px; margin: 0 auto;
+    padding-bottom: 50px; font-family: 'Nanum Gothic', sans-serif;}  
+
+
+    .member_tab{padding: 30px 0;border-top: 1px solid #333;}
+    .member_tab a{font-size: 24px;padding: 10px;margin: 0 10px;color: #aaa;}
+    .member_tab a.on{color: #fff;border-bottom: 2px solid #333;font-weight: bold}
+    .member_tab span{font-size: 24px;padding: 10px;margin: 0 10px;color: #fff;font-weight: bold}
+
+    .join{text-align: left; position: relative;}
+    .join h4{font-size: 20px;margin: 30px 0; color: #333;}
+    .join h3{font-size: 28px; margin-bottom: 50px; color: #333; text-align: center;}
+    .join h3::before{content: ''; position: absolute; top: 40px; left: 340px; width: 125px; height: 5px;
+        background: #001d6f;}
+    .join .policy{padding: 10px; overflow-y: scroll; height: 80px; margin: 20px 0;border: 1px solid #ddd;
+        background: #fff; font-size: 14px; line-height: 1.5em;}
+    .join .check{color: #333; margin: 20px 0 60px;}
+    .join .button{text-align: center;margin-top: 30px}
+    .join .button .ok,.join .button button,.join .allcheck{display: inline-block;width: 200px;line-height: 24px;padding: 8px 0;border: none;background: #001d6f;color: #fff;font-size: 14px;cursor: pointer;
+        margin: 0 5px; border-radius: 10px;}
+    .join .button .cancel{display: inline-block;width: 200px;line-height: 24px;padding: 8px 0;border: none;background: #999;color: #fff;font-size: 14px;cursor: pointer; border-radius: 10px;}
+    .join .allcheck{background: transparent; border: 1px solid #001d6f; color: #001d6f; border-radius: 10px;}
+
+    .sub_cont_wrap{background: #fff; padding: 50px; border-radius: 10px;}
+
+    /* 체크박스를 다른 UI로 처리 */
+    input[type=checkbox] + label::before {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-color: transparent;
+        border: 2px solid #999;
+        border-radius: 50%;
+        content: '';
+        margin: 0px 15px -6px 0px;
+    }
+    input[type=checkbox] {
+        display: none;
+    }
+    input[type=checkbox] + label {
+        cursor: pointer;
+    }
+    input[type=checkbox]:checked + label::before {
+        background: #fff url(../images/checked_bg.png) center center no-repeat;
+        border: 2px solid #0075ff;
+    }

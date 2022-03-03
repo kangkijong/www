@@ -1,0 +1,39 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-회사소개 내용 */
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 100px;}
+#content .line_map{font-family: 'Nanum Gothic', sans-serif; position: absolute; right: 15px; top: 15px;}
+#content h2{font-weight: 700; text-align: center; font-size: 50px; margin-bottom: 100px;}
+
+#content .content_area{width: 1200px; margin: 0 auto; overflow: hidden;}
+
+#content .sub_bar{width: 1200px; margin: 0 auto; margin-bottom: 150px; overflow: hidden; }
+#content .sub_bar li{float: left ; width: 598px; border: 1px solid #ccc;}
+#content .sub_bar li a{display: block; font-size: 20px; text-align: center; padding: 15px 0;}
+#content .sub_bar li a:hover{background: #109cf4; font-weight: 700; color: #fff;}
+
+#content .content_area div{position: relative; width: 1200px; font-size: 16px; line-height: 2em; text-align: justify; margin-bottom: 150px;}
+#content h4{display: block; font-size: 30px; font-weight: 700; color: #333; margin-bottom: 50px; padding: 0 0 0 20px;}
+#content h4::before{content: ''; display: block; width: 10px; height: 30px; background: #001d6f; position: absolute; top: 3px; left: 0;}
+
+#content li{font-size: 16px;}
+
+#content table{width: 1200px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 16px; color: #333;}
+#content th{width: 300px; padding: 15px 15px; border: 1px solid #ccc; background: #f5f5f5; font-size: 20px; font-weight: 700; text-align: center; line-height: 2em; text-align: center;}
+#content td{border: 1px solid #ccc; padding: 15px 15px; text-align: center; padding: 20px 20px;}
+
+#content h5{font-family: 'Nanum Gothic', sans-serif; font-size: 26px; font-weight: 700; text-align: center; margin-top: 100px;}
+
+#content .web_magazine{position: relative; width: 1200px; overflow: hidden; margin: 0; padding: 0;}
+
+#content .gallery{position: relative; left: 0; top: 0; width: 1200px; margin: 0 auto; margin-top: 50px;}
+#content .gallery li{float: left; margin: 0 105px 50px 105px; text-align: center;}
+#content .gallery p{margin-top: 10px;}
+#content .gallery p:hover{font-weight: 700; color: #109cf4;}
+
+/* .button{display: block; position: absolute; top: 450px;}
+.m1{left: 10px;}
+.m2{right: 10px;} */
+
+
+#content .content_top{background: #f5f5f5; border-radius: 30px; padding: 40px 40px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 16px; margin-bottom: 150px; line-height: 2em;}

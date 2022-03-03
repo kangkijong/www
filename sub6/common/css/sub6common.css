@@ -1,0 +1,18 @@
+/* 구글 폰트 import */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap');
+a,h2,h3,h4,h5,p,li{font-family: 'Nanum Gothic', sans-serif;}
+
+/* sub1 공통 - 비주얼/서브네비/타이틀영역 */
+
+.visual{width: 2000px; margin-top: 200px; position: relative; left: 50%; margin-left: -1000px; top: 0;}
+
+.visual h3{font-weight: 400; position: absolute; text-align: center; font-size: 36px; left: 0; top: 140px; width: 100%; color: #fff;}
+
+.sub_menu{width: 1200px; margin: 0 auto; position: relative; top: -63px; margin-bottom: -63px;}
+.sub_menu ul{overflow: hidden; width: 800px; margin: 0 auto;}
+.sub_menu li{float: left; width: 200px;}
+.sub_menu li a{display: block; font-size: 20px; padding: 20px 0; background: rgba(0, 0, 0, .7); color: #fff; text-align: center;}
+.sub_menu li a:hover{background: #001d6f; color: #fff; font-weight: 700;}
+.sub_menu .current a{background: #001d6f; color: #fff; font-weight: 700;}
+
+

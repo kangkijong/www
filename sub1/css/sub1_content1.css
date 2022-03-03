@@ -1,0 +1,22 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-회사소개 내용 */
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 100px;}
+#content .line_map{font-family: 'Nanum Gothic', sans-serif; position: absolute; right: 15px; top: 15px;}
+#content h2{font-weight: 700; text-align: center; font-size: 50px; margin-bottom: 100px;}
+#content .title_area p{text-align: center; font-size: 24px; margin-bottom: 150px; color: #333; font-weight: 700;}
+
+#content .content_area{width: 1200px; margin: 0 auto; overflow: hidden;}
+
+#content .content1 img{float: left; width: 340px; height: 410px; margin-bottom: 150px;}
+#content .content1_right{float: left; width: 860px; height: 410px; margin-bottom: 150px;}
+#content .content_area p{display: block; font-weight: 400; text-align: justify; font-size: 20px; color: #333; padding: 0 0 0 60px; line-height: 1.5em; margin-bottom: 20px;}
+#content span{font-weight: 700; color: #109cf4;}
+#content .str1{font-size: 30px; color: #333;}
+
+#content .content2_left{position: relative;; float: left; width: 580px; height: 360px; margin-bottom: 150px;}
+#content h4{display: block; font-size: 30px; font-weight: 700; color: #333; margin-bottom: 50px; padding: 0 0 0 20px;}
+#content h4::before{content: ''; display: block; width: 10px; height: 30px; background: #001d6f; position: absolute; top: 3px; left: 0;}
+#content ul{margin-top: 50px;}
+#content li{font-size: 20px; line-height: 2em;}
+#content .content2 img{float: right; width: 540px; height: 360px; margin-bottom: 150px; border-radius: 30px;}

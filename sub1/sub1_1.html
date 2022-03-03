@@ -1,0 +1,84 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>협회소개 - 인사말</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content1.css">
+    <!-- vendor prefix -->
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- visual -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼">
+            <h3>협회소개</h3>
+        </div>
+        <!-- sub_menu -->
+        <div class="sub_menu">
+            <ul>
+                <li class="current"><a href="./sub1_1.html">인사말</a></li>
+                <li><a href="./sub1_2.html">협회 현황</a></li>
+                <li><a href="./sub1_3.html">부서별업무</a></li>
+                <li><a href="./sub1_4.html">찾아오시는길</a></li>
+            </ul>
+        </div>
+        <!-- article -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; 협회소개 &gt; <strong>인사말</strong></div>
+                <h2>인사말</h2>
+                <p><span>회원</span>이 주인인 협회! 건설기술인에게 <span>희망</span>을!</p>
+            </div>
+            <div class="content_area">
+                <div class="content1">
+                    <div>
+                        <img src="./images/content1/sub1_1.png" alt="한국건설기술인협회장 김연태">
+                    </div>
+                    <div class="content1_right">
+                        <p>안녕하십니까?</p>
+                        <p>한국건설기술인협회 홈페이지 방문을 환영합니다.</p>
+                        <p>우리협회는 건설기술인의 <span>권익향상과 복리증진</span>을 통해 국가건설기술발전에 기여함을 목적으로 
+                            1987년 설립되었으며, 현재 88만 회원과 함께하는 <span>건설관련 최대 단체</span>입니다.</p> 
+                        <p>협회는 건설기술인 위상제고, 법·제도 개선, 건설기술인 경력관리, 복지, 교육 및 연구, 일자리 
+                            지원 등 건설기술인의 지속적인 성장과 발전을 위해 노력하고 있으며, 회원을 섬기고, <span>회원이 
+                            주인이 되는 협회</span>를 만들기 위해 최선을 다하고 있습니다. 협회의 주인은 건설기술인이기 
+                            때문입니다.</p>  
+                        <p>항상 소통하는 열린 협회를 지향하며, 우리 건설기술인과 늘 함께 하겠습니다.
+                            감사합니다.</p>
+                        <p>한국건설기술인협회 회장 <span class="str1">김연태</span></p> 
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="content2_left">
+                        <h4>회장 약력</h4>
+                        <ul>
+                            <li>- 한국건설기술인협회 회장</li>
+                            <li>- 前 한국건설감리협회 회장</li>
+                            <li>- 前 혜원까치종합건축 대표이사</li>
+                            <li>- 前 신회엔지니어링 대표이사</li>
+                            <li>- 前 삼부토건</li>
+                            <li>- 前 철도청 / 국방시설본부 ( 시공기술사, CMP )</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="./images/content2/sub1_2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+    <? include "../common/sub_footer.html" ?>
+</body>
+</html>

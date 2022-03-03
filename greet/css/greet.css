@@ -1,0 +1,136 @@
+/* 구글 폰트 import */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap');
+a,h2,h3,h4,h5,p,li{font-family: 'Nanum Gothic', sans-serif;}
+
+/* sub1 공통 - 비주얼/서브네비/타이틀영역 */
+
+.visual{width: 2000px; margin-top: 200px; position: relative; left: 50%; margin-left: -1000px; top: 0;}
+
+.visual h3{font-weight: 400; position: absolute; text-align: center; font-size: 36px; left: 0; top: 140px; width: 100%; color: #fff;}
+
+.sub_menu{width: 1200px; margin: 0 auto; position: relative; top: -63px; margin-bottom: -63px;}
+.sub_menu ul{overflow: hidden; width: 800px; margin: 0 auto;}
+.sub_menu li{float: left; width: 200px;}
+.sub_menu li a{display: block; font-size: 20px; padding: 20px 0; background: rgba(0, 0, 0, .7); color: #fff; text-align: center;}
+.sub_menu li a:hover{background: #001d6f; color: #fff; font-weight: 700;}
+.sub_menu .current a{background: #001d6f; color: #fff; font-weight: 700;}
+
+
+
+/* 각각의 페이지의 내용 콘텐츠 영역-회사소개 내용 */
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 100px;}
+#content .line_map{font-family: 'Nanum Gothic', sans-serif; position: absolute; right: 15px; top: 15px;}
+#content h2{font-weight: 700; text-align: center; font-size: 50px; margin-bottom: 100px;}
+
+#content .content_area{width: 1200px; margin: 0 auto; overflow: hidden;}
+
+#content .sub_bar{width: 1200px; margin: 0 auto; margin-bottom: 150px; overflow: hidden; }
+#content .sub_bar li{float: left ; width: 598px; border: 1px solid #ccc;}
+#content .sub_bar li a{display: block; font-size: 20px; text-align: center; padding: 15px 0;}
+#content .sub_bar li a:hover{background: #109cf4; font-weight: 700; color: #fff;}
+
+#content .content_area{position: relative; width: 1200px; font-size: 16px; line-height: 2em; text-align: justify;}
+#content h4{display: block; font-size: 30px; font-weight: 700; color: #333; margin-bottom: 50px; padding: 0 0 0 20px;}
+#content h4::before{content: ''; display: block; width: 10px; height: 30px; background: #001d6f; position: absolute; top: 3px; left: 0;}
+
+
+/* 공지사항 게시판 */
+
+/* list.php */
+#list_search{overflow: hidden; width: 1000px; height: 55px; border: 1px solid #ccc;
+    padding: 10px; margin: 0 auto; border-radius: 10px;}
+#list_search select{font-family: 'Nanum Gothic', sans-serif; font-size: 14px; padding: 8px;
+    border: solid 1px #ccc; border-radius: 5px; width: 80px; margin: 10px 10px 0 220px; height: 38px; float: left;}
+#list_search4 input{padding: 8px; width: 378px; margin: 10px 10px 0 0; height: 20px; float: left;
+    border-top: none; border-left: none; border-right: none; border-bottom: 1px solid #ccc;
+    background: #fff; outline: none;}
+#list_search5 input{background: #001d6f; border-radius: 5px; border: none; padding: 10px 20px; color: #fff; float: left;
+    margin: 9px 0 0 10px;}
+
+#list_search1{float: left; margin-top: 55px; font-weight: 700;}
+#list_search2{float: right; margin-top: 50px;}
+#list_search2 select{ border: 1px solid #ccc; padding: 5px; border-radius: 5px;}
+
+#list_top_title{display: block; margin-top: 100px;}
+#list_top_title ul{overflow: hidden; background-color: #f3f3f3; border-radius: 5px; text-align: center; width: 100%; padding: 5px 0;}
+#list_top_title li {float: left; color: #333; font-size: 16px; font-weight: 400; text-align: center; height: 25px; padding-top: 5px; padding-bottom: 10px; font-weight: 700;}
+#list_title1{width: 10%;}
+#list_title2{width: 50%;}
+#list_item>#list_item2{text-align: left;}
+#list_title3{width: 15%;}
+#list_title4{width: 15%;}
+#list_title5{width: 10%;}
+
+#list_content{display: block;}
+#list_item{overflow: hidden; border-bottom: 1px solid #ccc;}
+#list_item>div{float: left; text-align: center; padding: 5px 0;}
+#list_item1{width: 10%;}
+#list_item2{width: 50%;}
+#list_item3{width: 15%;}
+#list_item4{width: 15%;}
+#list_item5{width: 10%;}
+
+#page_button{margin-top: 80px; margin-left: 520px; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px;}
+#button{margin-top: -90px; float: right;}
+#page_button #button a {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+/* view.php */
+#view_title #view_title1 {
+    background: #001d6f;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+#view_title #view_title2 {
+    text-align: right;
+    margin-top: 30px;
+}
+
+#view_content {
+    text-align: justify;
+    font-size: 16px;
+    padding: 60px 50px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+}
+
+#view_button{margin-top: 20px; float: right; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px;}
+#view_button a{border: 1px solid #ccc; padding: 5px 10px; border-radius: 5px;}
+
+
+/* write_form */
+#write_form{overflow: hidden; border: 2px solid #333; border-left: none; border-right: none; width: 100%;}
+
+#write_row1{overflow: hidden; padding: 20px 0; width: 95%; margin: 0 auto; border-bottom: 1px solid #ccc;}
+#write_row1 .col1{width: 20%; color: #333; font-weight: 700; float: left;}
+#write_row1 .col2{width: 70%; float: left;}
+#write_row1 .col3{width: 10%; float: left;}
+
+#write_row2{overflow: hidden; padding: 20px 0; width: 95%; margin: 0 auto; border-bottom: 1px solid #ccc;}
+#write_row2 .col1{width: 20%; color: #333; font-weight: 700; float: left;}
+#write_row2 .col2{width: 80%; float: left;}
+#write_row2 input{outline: none; width: 100%; box-sizing: border-box; font-size: 16px; border: none; 
+    background: #f3f3f3; padding: 10px 10px;}
+
+#write_row3{overflow: hidden; padding: 20px 0; width: 95%; margin: 0 auto; margin-bottom: 20px;}
+#write_row3 .col1{width: 20%; color: #333; font-weight: 700; float: left;}
+#write_row3 .col2{width: 80%; float: left;}
+#write_row3 textarea{padding: 5px 0; outline: none; box-sizing: border-box; width: 100%; border: none; font-size: 16px;
+    background: #f3f3f3; padding: 10px 10px;}
+
+#write_button{margin-top: 20px; float: right; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px;}
+#write_button a{border: 1px solid #ccc; padding: 5px 10px; border-radius: 5px;}
+#write_button input{font-family: 'Nanum Gothic', sans-serif; font-size: 16px; background: #fff; padding: 5px 10px; border: 1px solid #ccc; border-radius: 5px;}
+
+

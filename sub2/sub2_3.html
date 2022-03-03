@@ -1,0 +1,296 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>경력관리 - 증명서 신청</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub2_content3.css">
+    <!-- vendor prefix -->
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- visual -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼">
+            <h3>경력관리</h3>
+        </div>
+        <!-- sub_menu -->
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub2_1.html">경력신고</a></li>
+                <li><a href="./sub2_2.html">건설업체 상호 신고</a></li>
+                <li class="current"><a href="./sub2_3.html">증명서 신청</a></li>
+                <li><a href="./sub2_4.html">회비 및 수수료</a></li>
+                <li><a href="./sub2_5.html">경력관리제도 </a></li>
+            </ul>
+        </div>
+        <!-- article -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; 경력관리 &gt; <strong>증명서 신청</strong></div>
+                <h2>증명서 신청</h2>
+            </div>
+            <div class="content_area">
+                <div class="sub_bar">
+                    <ul>
+                        <li><a class="link1" href="#">증명서 발급안내</a></li>
+                        <li><a class="link2" href="#">건설기술인 보유/경력증명서, 건설기술 경력증 신청</a></li>
+                        <li><a class="link3" href="#">참여기술인 경력사항(PQ)확인서 신청</a></li>
+                        <li><a class="link4" href="#">건설기술인 신규고용률 확인서 발급신청</a></li>
+                    </ul>
+                </div>
+                <div class="content1 con1">
+                    <div>
+                        <h4>건설기술인 경력증명서, 보유증명서 등 신청</h4>
+                        <ul>
+                            <li class="first">1. 인터넷을 통하여 본인이나 소속업체에서 건설기술인 경력증명서를 신청(발급)하는 경우
+                                <ul>
+                                    <li class="normal second last">협회의 인터넷 사이트를 방문하여 아이디(건설기술인 본인 또는 소속업체)를 통하여 경력증명서를 신청하고 공인인증서(건설기술인 본인 또는 소속업체)로 확인 뒤 신용카드로 결제하고 증명서를 출력</li>
+                                </ul>
+                            </li>
+                            <li class="first">2. 본인이 협회를 방문하여 건설기술인 경력증명서를 신청(발급)하는 경우
+                                <ul>
+                                    <li class="normal second last">건설기술인 본인이 경력증명서가 필요할 경우로 본인 신분증 제시</li>
+                                </ul>
+                            </li>
+                            <li class="first">3. 소속업체 및 대리인이 협회를 방문하여 건설기술인 경력증명서를 신청(발급)하는 경우
+                                <ul>
+                                    <li class="normal second last">본인으로부터 위임받은 대리인이 경력증명서를 신청하는 경우는 건설기술인 보유/경력증명서 발급신청서[별지 5호서식] <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=10139116072501.hwp&original=1013911607250.hwp">서식 다운로드</a> 1부 작성(협회에 신고된 법인 또는 사용인감 날인)하고 신청(대리)인 신분증 제시
+                                        - 증명서 발급 대상자의 성명, 생년월일, 직무/전문분야 기재</li>
+                                </ul>
+                            </li>
+                            <li class="first">4. 건설기술인 보유증명서를 신청하는 경우
+                                <ul>
+                                    <li class="normal second">(가) 인터넷을 통하여 소속업체에서 건설기술인 보유증명서를 신청(발급)하는 경우
+                                        <ul>
+                                            <li>협회 인터넷 사이트를 방문하여 소속업체 아이디를 통하여 보유증명서를 신청하고 소속업체 공인인증서로 확인 뒤 신용카드로 결제하고 증명서를 출력</li>
+                                        </ul>
+                                    </li>
+                                    <li class="normal second">(나) 협회를 방문하여 건설기술인 보유증명서를 신청(발급)하는 경우
+                                        <ul>
+                                            <li>보유증명서는 업체에서 신청하는 것으로 발급 대상자의 성명, 생년월일, 분야를 기재한 건설기술인 보유/경력증명서 발급신청서[별지 제5호서식] <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=10139116072501.hwp&original=1013911607250.hwp">서식 다운로드</a> 1부(협회에 신고된 법인 또는 사용인감 날인)와 신청(대리)인 신분증 제시</li>
+                                        </ul>
+                                    </li>
+                                    <li class="normal second">(다) 협회를 방문하여 시설공사 적격심사용 건설기술인 보유증명서를 신청(발급)하는 경우
+                                        <ul>
+                                            <li class="last">보유증명서는 업체에서 신청하는 것으로 발급 대상자의 성명, 생년월일, 분야, 입찰내용의 해당사항을 기재한 건설기술인 보유/경력증명서 발급신청서[별지 제5호서식] <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=10139116072501.hwp&original=1013911607250.hwp">서식 다운로드</a> 1부(협회에 신고된 법인 또는 사용인감 날인), 신청(대리)인 신분증 제시
+                                                단, 방문신청 발급시 건설기술인 경력증명서는 양면 발급 선택이 가능하며, 인터넷으로 발급되는 것과 같이 위.변조 방지표시와 바코드가 삽입되어 건설기술인 경력증명서의 원본확인과 협회의 인터넷 사인트를 통한 진위여부 확인이 가능하도록 발급됩니다.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>건설기술경력증 신청</h4>
+                        <p>「건설기술진흥법 시행령」 별표1 제1호의 건설기술인에 한하여 건설기술경력증 발급(신규·갱신·재발급)신청서[별지 제16호서식] <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=10139114224161.hwp&original=1013911422416.hwp">서식 다운로드</a> 와 증명사진 1매, 수수료 8,000원(재발급시)을 첨부하여 본인 신분증 또는 대리인 신분증을 제시하여 신청하며 우편신청(우편 발송료:3,530원)도 가능합니다.</p>
+                    </div>
+                    <div>
+                        <h4>참여기술인 경력사항(P.Q) 확인서 신청</h4>
+                        <p>업체에서 사전 적격심사용으로 신청하는 확인서로 3일 이내 발급되며 신청서류는 참여기술인 경력사항(PQ)확인 신청서[별지 제6호서식]
+                            <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=101391164093211.hwp&original=10139116409321.hwp">서식 다운로드</a> , 신청(대리)인 신분증, 참여기술인 경력사항확인서(표준안)2부, 시설공사 기성(준공) 실적증명서 원본 1부(시공능력평가인 경우에 한합니다.)
+                            ※ 입찰에 참여할 건설기술인의 해당 분야별 경력사항 확인서 발급 신청시 2005년 7월 01일 이후에 참여한 설계 등 기술용역 경력사항에 대하여는 발주청 확인의 경력확인 또는 발주청이 확인한 분야별 참여기술인 명단[별지 제2호서식] <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=pds_201002031.hwp&original=pds_20100203.hwp">서식 다운로드</a> 을 시공경력사항에 대하여는 시설공사 시공실적증명서(기획재정부 또는 행정안전부 회계 예규 규정에 의한 증명서)를 첨부</p>
+                    </div>
+                    <div>
+                        <h4>건설기술인 신규고용률 확인서 발급 신청</h4>
+                        <p class="last">국토교통부 고시 제2015-1097호『건설기술용역업자 사업수행능력 세부평가기준』, 조달청 설계 등 용역업자 사업수행능력 세부평가기준 개정에 따라 건설기술인 신규고용률과 관련한 증명서를 발급. 건설기술인 신규고용률 확인서 발급신청서 [협회서식 제28호] <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=pds_201002031.hwp&original=pds_20100203.hwp">서식 다운로드</a></p>
+                        <p><span class="first">※ 조달청 발급용일 경우</span> : 건설기술인 신규고용률 확인서 발급신청서에 “조달청발급용”으로 표기해서 신청</p>
+                    </div>
+                </div>
+                <div class="content2 con2">
+                    <div>
+                        <h4>건설기술인 경력/보유증명서, 건설기술경력증 신청</h4>
+                        <ul>
+                            <li class="first">1. 인터넷 발급 요청 시 신청방법 및 절차
+                                <ul class="normal second">
+                                    <li>(가 )협회 인터넷 사이트 방문하여 아이디(개인 또는 업체) 개설</li>
+                                    <li>(나) 협회 인터넷 사이트의 온라인증명 발급으로 접속
+                                        <ul>
+                                            <li class="third last">개인은 본인의 경력증명서, 업체는 소속된 기술인의 경력증명서 또는 보유증명서 신청, 공인인증서(소속업체)로 확인 후 신용카드로 결제하고 증명서를 출력</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="first">2. 협회 방문 발급 요청 시 준비서류
+                                <ul class="normal second">
+                                    <li>(가) 건설기술인 본인이 경력증명서가 필요한 경우 : 본인 신분증 제시</li>
+                                    <li>(나) 대리인이 신청한경우 : 건설기술인보유/경력증명서 발급신청서(별지 제5호서식) <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=10139116072501.hwp&original=1013911607250.hwp">서식 다운로드</a> 1부 작성과 함께 본인 신분증 사본, 대리인 신분증 제시</li>
+                                    <li>(다) 소속회사에서 신청한 경우 : 건설기술인보유/경력증명서 발급신청서(별지 제5호서식) <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=10139116072501.hwp&original=1013911607250.hwp">서식 다운로드</a> 1부 작성(협회에 신고된 법인 또는 사용인감 날인)과 함께 대리인 신분증 제시</li>
+                                    <li>(라) 보유증명서의 경우 발급 대상자의 성명, 생년월일, 분야를 기입한 건설기술인 보유/경력증명서 발급신청서(별지 제5호서식)
+                                        <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=10139116072501.hwp&original=1013911607250.hwp">서식 다운로드</a> 1부(협회에 신고된 법인 또는 사용인감 날인)과 함께 신청인(대리) 신분증 제시</li>
+                                    <li class="last">(마) 특정기준일자 건설기술인 보유증명서의 경우 발급 대상자의 성명, 생년월일, 분야 및 입찰내용의 해당사항을 기입한 건설기술인 보유/경력증명서 발급신청서[별지 제5호서식] <a class="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=10139116072501.hwp&original=1013911607250.hwp">서식 다운로드</a> 1부 작성(협회에 신고된 법인 또는 사용인감 날인)과 함께 신청(대리)인 신분증 제시</li>
+                                </ul>
+                            </li>
+                            <li class="first">※ 수령하지 않은 증명서의 처리
+                                <ul class="normal second">
+                                    <li>- 발급 신청 후 신청인이 수령하지 않은 증명서는 발급일로부터 30일 경과 후 폐기
+                                        <ul>
+                                            <li class="third"><span class="span_blue">단, 방문신청 발급시 건설기술인 경력증명서는 양면 발급 선택이 가능하며, 인터넷으로 발급되는 것과 같이 위.변조 방지표시와 바코드가 삽입되어 건설기술인 경력증명서의 원본확인과 협회의 인터넷 사이트를 통한 진위여부 확인이 가능하도록 발급됩니다.</span></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>건설기술경력증 신청</h4>
+                        <ul>
+                            <li class="first">- 발급 요청시 준비서류(직접 내방 또는 우편 신청 가능)
+                                <ul class="normal second">
+                                    <li>(가) 건설기술경력증 발급(신규·갱신·재발급)신청서(시행규칙 별지 제16호 서식) <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=10139114224161.hwp&original=1013911422416.hwp">서식 다운로드</a></li>
+                                    <li>(나) 증명사진 1매(증명사진 3.5㎝×4.5㎝)</li>
+                                    <li>(다) 우편발송료 3,530원(건설기술경력증을 우편으로 수령하는 경우에 한합니다)</li>
+                                    <li class="last">(라) 수수료 8,000원(재발급 경우에 한합니다)</li>
+                                </ul>
+                            </li>
+                            <li class="first">※ 수령하지 않은 건설기술경력증의 처리
+                                <ul>
+                                    <li class="normal second">- 건설기술경력증을 수령하지 않은 경우 발급일로부터 1년 경과 후 폐기</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content3 con3">
+                    <h4>참여기술인 경력사항(P.Q)확인서 신청</h4>
+                    <ul>
+                        <li>(가) 참여기술인경력사항(PQ)확인 신청서(별지 제6호서식)1부 <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=101391164093211.hwp&original=10139116409321.hwp">서식 다운로드</a></li>
+                        <li>(나) 신청(대리)인 신분증</li>
+                        <li>(다) 참여기술인 경력사항 확인서 (표준안)2부</li>
+                        <li class="last">(라) 시설공사 기성(준공)실적증명서 1부(시공능력평가인 경우에 한합니다)</li>
+                        <li>※ 참여기술인 경력사항(PQ) 확인서 발급 기한은 3일입니다.</li>
+                        <li>※ 입찰에 참여할 건설기술인의 해당 분야별 경력사항 확인서 발급 신청시 2005년 7월 01일 이후에 참여한 설계 등 기술용역 경력사항에 대하여는 발주청 확인의 경력확인 또는 발주청이 확인한 분야별 참여기술인 명단[별지 제2호서식] <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=pds_201002031.hwp&original=pds_20100203.hwp">서식 다운로드</a> 을 시공경력사항에 대하여는 시설공사 시공실적증명서(기획재정부 또는 행정안전부 회계 예규 규정에 의한 증명서)를 첨부</li>
+                        <li><span class="first">※ 수령하지 않은 증명서의 처리</span>
+                            <ul>
+                                <li class="second">- 발급 신청 후 신청인이 수령하지 않은 증명서는 발급일로부터 30일 경과 후 폐기</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content4 con4">
+                    <h4>건설기술인 신규고용률 확인서 발급 신청</h4>
+                    <ul>
+                        <li class="first">1. 인정범위
+                            <ul class="normal second">
+                                <li>- 건설기술인 경력관리수탁은 건설기술인이 최초로 신고하는 업체(비건설 업체 포함)에 한해 해당업체 신규 건설기술인으로 인정</li>
+                                <li>- 건설기술인의 전체 근무사실이 표기된 증빙자료상 상호만으로는 건설분야 여부를 판단하기 곤란하므로 건설기술진흥법에 따라 최초로 신고한 업체에 한해 신규 건설기술인으로 인정</li>
+                            </ul>
+                        </li>
+                        <li class="first">2. 협회 방문 신청방법 및 절차
+                            <ul class="normal second">
+                                <li>(가) 협회 홈페이지 -> 열린마당 -> 자료실 -> 경력관리양식에서 서식 다운로드
+                                    건설기술인 신규고용률 확인서 발급신청서[협회서식 제28호] <a class="download" href="https://homenet.kocea.or.kr:1443/utl/web/downloadFile.do?path=cGRzQ29udHJvbGxlcg==&physical=pds_201002031.hwp&original=pds_20100203.hwp">서식 다운로드</a></li>
+                                <li>(나) 입찰공고일 이전 퇴직한 건설기술인의 퇴직 신고가 되어 있지 않은 경우 “건설기술인 신규고용률 확인서” 신청시 퇴직사실을 증명할 객관적 증빙자료를 제출
+                                    <ul>
+                                        <li class="third">※ 국민연금, 건강보험 등(사업장명부)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="first">3. 건설기술인 신규고용률 확인서 발급 비용
+                            <ul>
+                                <li class="normal second">- 1부 : 1,000원</li>
+                            </ul>
+                        </li>
+                        <li class="first">4. 건설기술인 신규고용률확인서를 적용하고 있는 평가 기준
+                            <ul class="second">
+                                <li>※ 국토교통부 『건설기술용역업자 사업수행능력 세부평가기준』</li>
+                                <li>[별표1] 설계 등 용역업자 사업수행능력 세부평가항목 및 배점</li>
+                                <li>[별표2] 건설사업관리용역사업자 사업수행능력 세부평가항목 및 배점</li>
+                                <li class="last">[별표3] 정밀점검 또는 정밀안전진단 용역사업자 사업수행능력 세부평가항목 및 배점</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>2. 가점 평가기준</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="table_first">평가항목</th>
+                                <th class="table_first">세부평가항목</th>
+                                <th>세부평가방법</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>가점</td>
+                                <td>건설기술인<br>신규고용</td>
+                                <td class="justify">
+                                    <ul>
+                                        <li>- 건설기술인 신규고용율에 따라 가점 부여
+                                            <ul>
+                                                <li>ㆍ 1% 이상 : 0.1점</li>
+                                                <li>ㆍ 2% 이상 : 0.2점</li>
+                                                <li class="last">ㆍ 3% 이상 : 0.3점</li>
+                                            </ul>
+                                        </li>
+                                        <li>* 건설기술인 신규 고용율 = 최근 1년간 건설기술인 신규 고용인원(입찰 공고일 전월 기준) / 직전년도 동기간 평균 고용인원</li>
+                                        <li>* 신규 건설기술인은 입찰공고일 현재 해당업체 재직 중인 자로 건설기술인 경력관리 수탁기관의 경력증명서에 최초로 입사 등록된 자(이전 건설분야 근무경력이 없는 자)에 한함</li>
+                                        <li class="last">* 직전년도 동기간 평균 고용인원은 건설기술인 경력관리 수탁기관에 신고한 자로서 해당업체의 기술인 재직인원(월말 기준)을 월단위로 평균하여 산정</li>
+                                        <li>- 건설기술인 경력관리 수탁기관에서 확인한 후 발급한 자료로 평가</li>
+                                        <li>- 공동이행방식으로 용역을 수행하는 경우에는 공동수급체의 구성원별 평가점수에 용역참여지분율을 곱하여 산정한 후 이를 합산</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="first last">※ 조달청 「설계 등 용역업자 사업수행능력 세부평가기준」</p>
+                    <p class="first">[별지1]</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="table_first">평가항목</th>
+                                <th class="table_first">평가요소</th>
+                                <th class="table_first">세부평가요소</th>
+                                <th class="table_first">배점</th>
+                                <th>점수계산방법</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>가점</td>
+                                <td colspan="2">청년신규기술인의 참여</td>
+                                <td>0.4</td>
+                                <td>
+                                    <ul class="table_second">
+                                        <li class="last">신규 고용인원증가율(최근 1년간 평균고용인원 /직전년도 동기간 평균 고용인원)과 청년기술인 신규 고용율(최근 1년간 청년기술인 신규 고용인원/ 직전년도 동기간 평균 고용인원)을 비교하여 낮은 비율(%)에 해당하는 가점부여
+                                            <table class="inner_table">
+                                                <tr>
+                                                    <th>비율(%)</th>
+                                                    <td>2%이상 3%미만</td>
+                                                    <td>3%이상 4%미만</td>
+                                                    <td>4%이상</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>가산점수</th>
+                                                    <td>0.2점</td>
+                                                    <td>0.3점</td>
+                                                    <td>0.4점</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>※ 신규 청년기술인는 입찰공고일 현재 만34세이하로 건설기술인 경력관리 수탁기관의 경력확인서에 최초로 입사등록 된 자에 한한다.</li>
+                                        <li>※ 직전년도 동기간 평균 고용인원은 건설기술 경력관리 수탁기관에 신고한 자로서 해당업체의 기술인 재직인원(월말 단위)을 월단위로 평균하여 산정한다.(각 수탁기관의 건설기술인 신규고용율 확인서를 합산평가)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="./js/slide_move.js"></script>
+</body>
+</html>

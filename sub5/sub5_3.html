@@ -1,0 +1,83 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서비스 안내 - 경력신고 사전상담</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content3.css">
+    <!-- vendor prefix -->
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- visual -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼">
+            <h3>서비스 안내</h3>
+        </div>
+        <!-- sub_menu -->
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub5_1.html">회원우대서비스</a></li>
+                <li><a href="./sub5_2.html">콜센터</a></li>
+                <li class="current"><a href="./sub5_3.html">경력신고 사전상담</a></li>
+                <li><a href="./sub5_4.html">무료법률상담</a></li>
+                <li><a href="./sub5_5.html">서비스 문의</a></li>
+            </ul>
+        </div>
+        <!-- article -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; 서비스 안내 &gt; <strong>경력신고 사전상담</strong></div>
+                <h2>경력신고 사전상담</h2>
+            </div>
+            <div class="content_area">
+                <div class="content_top">
+                    <p>협회에 <span class="color_blue">최초로 경력신고(신규 회원가입)하는 건설기술인</span>이 협회 방문 전 홈페이지를 통해 「경력신고 사전상담」 을 신청하면,</p>
+                    <p>서류를 사전에 검토하고 필요서류를 안내하여 재방문의 불편을 해소하고자 사전상담센터를 운영하고 있습니다.</p>
+                </div>
+                <div>
+                    <h4>사전상담 신청대상</h4>
+                    <ul>
+                        <li><span class="color_blue">「경력신고 사전상담」 은 홈페이지를 통한 신청을 완료한 분에 한하여 가능합니다.</span></li>
+                        <li>협회에 최초로 경력신고*(신규 회원가입) 하는 건설기술인으로 다음에 어느 하나에 해당하는 경우
+                            <ul>
+                                <li>- 만 60세 이상 건설기술인</li>
+                                <li>- 발주청**(정부·지방자치단체 또는 공사 등)에 근무 중이거나 근무한 경력을 포함하여 신고하는 건설기술인
+                                    <ul>
+                                        <li>* 최초 경력신고란 건설기술인 또는 임의신고자가 「건설기술진흥법」제21조 및 같은 법 시행규칙 제18조에 따라 자신의 근무처, 경력, 학력
+                                            및 자격 등의 관리에 필요한 사항을 최초로 신고하는 것을 말합니다.</li>
+                                        <li>** 「건설기술진흥법」 제2조 제6항에 따른 발주청을 말합니다.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>사전상담 절차</h4>
+                    <ul class="normal">
+                        <li>1. 대상 및 서류확인(신규)</li>
+                        <li>2. 본인인증 후 상담신청</li>
+                        <li>3. 신청서류 검토(2~3일 소요)</li>
+                        <li>4. 결과통보·확인</li>
+                        <li>5. 신고서류 접수(방문, 우편)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </article>
+    <? include "../common/sub_footer.html" ?>
+</body>
+</html>

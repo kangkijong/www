@@ -1,0 +1,68 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>협회소개 - 찾아오시는길</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content4.css">
+    <!-- vendor prefix -->
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!-- 다음카카오맵 -->
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c73bae829230a2bde8b06c77e871491b"></script>
+    <script src="./js/map.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- visual -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼">
+            <h3>협회소개</h3>
+        </div>
+        <!-- sub_menu -->
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub1_1.html">인사말</a></li>
+                <li><a href="./sub1_2.html">협회 현황</a></li>
+                <li><a href="./sub1_3.html">부서별업무</a></li>
+                <li class="current"><a href="./sub1_4.html">찾아오시는길</a></li>
+            </ul>
+        </div>
+        <!-- article -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; 협회소개 &gt; <strong>찾아오시는길</strong></div>
+                <h2>찾아오시는길</h2>
+            </div>
+            <div class="content_top">
+                <p><span class="color_blue">찾아오시는 길</span>을 안내해드립니다.</p>
+            </div>
+            <div class="map">
+                <div id="map"></div>
+                <div class="information">
+                    <p><span>주소</span> : 서울특별시 강남구 언주로 650 한국건설기술인협회 (우)06098</p>
+                    <p><span>전화</span> : (대표전화) 1577 - 5445</p>
+                    <dl>
+                        <dt><i class="fas fa-subway"></i> 지하철</dt>
+                        <dd><span class="seven">서울지하철 7호선</span> 학동역 1번 출구(서울세관 사거리 방향 도보 5분거리)</dd>
+                        <dd><span class="seven">서울지하철 7호선</span>ㆍ<span class="bundang">분당선</span>  강남구청역 2번 출구(서울세관 사거리 방향 도보 8분거리)</dd>
+                        <dt><i class="fas fa-bus"></i> 버스</dt>
+                        <dd>학동역 - 세관앞(하차) - 강남구청(<span class="gansun">141</span>, <span class="gansun">401</span>, <span class="gansun">640</span>, <span class="sunhwan">3414</span>)</dd>
+                        <dd>강남YMCA - 임피리얼 펠리스호텔(하차) - 세관앞(<span class="gansun">141</span>)</dd>
+                    </dl>
+                </div>
+            </div>
+        </article>
+    <? include "../common/sub_footer.html" ?>
+</body>
+</html>

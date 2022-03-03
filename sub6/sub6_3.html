@@ -1,0 +1,222 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>열린마당 - 자주묻는질문</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <link rel="stylesheet" href="./css/sub6_content3.css">
+    <!-- vendor prefix -->
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- visual -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼">
+            <h3>열린마당</h3>
+        </div>
+        <!-- sub_menu -->
+        <div class="sub_menu">
+            <ul>
+                <li><a href="../greet/list.php">공지사항</a></li>
+                <li><a href="../concert/list.php">홍보·언론자료</a></li>
+                <li class="current"><a href="./sub6_3.html">자주묻는질문</a></li>
+                <li><a href="../free/list.php">질문답변</a></li>
+            </ul>
+        </div>
+        <!-- article -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; 열린마당 &gt; <strong>자주묻는질문</strong></div>
+                <h2>자주묻는질문</h2>
+            </div>
+            <div class="content_area">
+                <div class="content_top">
+                    <p>질의를 하시기 전에 동일하거나 유사한 질의 응답내용이 있는지 여부를 아래 분류에서 확인하여 주시고,</p>
+                    <p>해당질의 답변이 없는 경우에는 <span class="color_blue">질문답변(Q&A) 메뉴에서</span> 질의하시면 됩니다.</p>
+                </div>
+            </div>    
+            <div class="faq">
+
+                <div class="hgroup">
+                    <!-- <h4>경력신고 및 경력변경신고</h4> -->
+                    <a class="all" href="#"><span class="hidden">모두열기</span><i class="fas fa-chevron-circle-down"></i></a>
+                </div>  
+                <ul>  
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >1. 회사 입.퇴사 및 기술경력 신고할 경우 필요한 서류는?</a>  
+                        </p>  
+                        <ul class="a">
+                            <li>1) 건설기술인 경력변경신고서</li>
+                            <li><span class="color_orange">※ 경력확인서 성명란에 본인 서명 또는 날인이 있는 경우 생략 가능</span></li>
+                            <li>2) 경력확인서</li>
+                            <li>3) 건강보험자격득실확인서 또는 국민연금가입자가입증명서 사본</li>
+                            <li><span class="color_orange">(근무처 입사 또는 퇴사 변경사항이 있는 경우에 한함)</span></li>
+                        </ul>
+                    </li> 
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >2. 협회에 처음 건설기술인으로 가입할 경우 필요한 서류는?</a>  
+                        </p>  
+                        <ul class="a">
+                            <li>1) 건설기술인 경력신고서</li>
+                            <li>2) 경력확인서</li>
+                            <li>3) 국가기술자격증 사본 (해당자에 한함)</li>
+                            <li>4) 졸업증명서 (해당자에 한함)</li>
+                            <li><span class="li_indent">※ 재학기간과 경력기간이 중복되는 경우, 반드시 졸업증명서 첨부하여 협회 접수 담당자와 상담 필요</span></li>
+                            <li>5) 건설관련 교육수료증 (해당자에 한함)</li>
+                            <li>6) 증명사진(3.5cm × 4.5cm) 2매 (건설기술경력증 발급 시 필요)</li>
+                            <li><span class="color_orange">※ 건설기술인경력신고서에 사진을 인쇄하는 경우에는 1매</span></li>
+                            <li>7) 건설기술경력증발급(신규.갱신.재발급)신청서</li>
+                            <li>8) 경력신고 사항을 증명할 수 있는 서류(단, 발주청에서 근무한 경력을 신고할 경우 인사기록부 등 추가 첨부)</li>
+                            <li>9) 개인정보 수집ㆍ이용 및 제3자 제공 동의서</li>
+                            <li>10) 클린서약서</li>
+                            <li>11) 수수료(특급 : 100,000원, 고급 ~ 초급, 기타 : 90,000원)</li>
+                            <li>12) 건설관련업체 등록(신규ㆍ변경)신청서</li>
+                            <li><span class="li_indent">※ 건설기술인이 근무한 소속업체 정보의 등록(신규) 및 변경이 필요한 경우 위 서식과 서식 하단에 기재된 첨부서류 제출</span></li>
+                        </ul> 
+                    </li>
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >3. 회원상실(탈퇴, 회비연체 등)로 협회에 재가입할 경우 필요한 서류는?</a>  
+                        </p>  
+                        <ul class="a">
+                            <li><strong>가. 필요서류</strong></li>
+                            <li>1) 건설기술인 경력신고서</li>
+                            <li>2) 개인정보 수집ㆍ이용 및 제3자 제공 동의서</li>
+                            <li>3) 클린서약서</li>
+                            <li class="li_last">4) 회원상실 이전 미납된 연회비, 재가입 수수료(입회비 : 70,000원, 연회비 특급 : 30,000원, 고급 ~ 초급, 기타 : 20,000원)</li>
+                            <li><strong>나. 추가제출서류</strong></li>
+                            <li>1) 경력확인서</li>
+                            <li>2) 국가기술자격증 사본 (해당자에 한함)</li>
+                            <li>3) 졸업증명서 (해당자에 한함)</li>
+                            <li>4) 건설기술경력증발급(신규.갱신.재발급)신청서</li>
+                            <li>5) 경력신고 사항을 증명할 수 있는 서류(단, 발주청에서 근무한 경력을 신고할 경우 인사기록부 등 첨부)</li>
+                        </ul>  
+                    </li>
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >4. 부도.폐업 또는 퇴직거부 업체의 경력을 신고할 경우 필요한 서류는?</a>  
+                        </p>  
+                        <ul class="a">
+                            <li><strong>가. 필요서류</strong></li>
+                            <li><strong>업체가 부도ㆍ폐업으로 인하여 경력확인서를 발급 받을 수 없는 경우</strong></li>
+                            <li>1) 건설기술인 경력신고서</li>
+                            <li>2) 경력확인서</li>
+                            <li><span class="color_orange">※ 발주자 또는 수급인이 확인한 경력확인서(수급인이 확인한 경력확인서는 하수급인에 소속 된 건설기술인에 한한다) 또는 해당 업체의 대표자(등재이사 포함)가 개인 인감으로 확인한 경력확인서</span></li>
+                            <li><span class="color_orange">→ 경력을 확인(날인)하는 대표자(등재이사 포함)는 경력을 신고하고자 하는 건설기술인 퇴사일 이전 취임하여 퇴사일 이후까지 등재된 자로서 이를 확인할 수 있는 등기사항 증명서(구.법인등기부등본) 및 확인자의 개인 인감증명서 첨부</span></li>
+                            <li>3) 건강보험자격득실확인서 또는 국민연금가입자가입증명서 사본</li>
+                            <li><span class="color_orange">(근무처 입사 또는 퇴사 변경사항이 있는 경우에 한함)</span></li>
+                            <li class="li_last">4) 부도ㆍ폐업 등의 사실을 확인할 수 있는 공적 서류</li>
+                            <li><strong>소속회사에서 특별한 사유 없이 퇴직을 거부(4대보험 상실처리 거부)하여 사용자로부터 경력확인서를 발급 받을 수 없는 경우</strong></li>
+                            <li>1) 건설기술인 경력변경신고서</li>
+                            <li>2) 건강보험자격득실확인서 또는 국민연금가입자가입증명서 사본</li>
+                            <li>3) 4대보험(산재, 건강, 고용, 국민연금)관리기관에서 제공하는 개인 자격취득·상실 이력사항을 확인할 수 있는 증명서( 2)의 서류)를 발급받기 위해 「민법」제660조에 따른 다음의 서류를 4대보험 관리기관에 제출해야 합니다.</li>
+                            <li><span class="color_orange">※ 고용기간의 약정이 없는 내용 및 급여 지급방법 등을 구체적으로 기재하여야 하며 「민법」제660조에서 정한 기간이 완성되어 해지의 효력이 생긴 서류에 한함</span></li>
+                            <li><span class="color_orange">나) 내용증명서를 발송한 업체의 소재지 확인을 위한 등기사항증명서</span></li>
+                            <li><span class="color_orange">(구.법인등기부등본) 또는 사업자등록증 사본</span></li>
+                            <li><span class="color_orange">다) 통고내용에 대한 업체 수령 또는 반송확인 서류(우편물 배달증명서 등)</span></li>
+                            <li>4) 경력확인서</li>
+                            <li><span class="color_orange">※ 소속회사가 아닌 발주청(인허가기관), 발주자 또는 수급인이 확인한 경력확인서(수급인이 확인한 경력확인서는 하수급인에 소속된 건설기술인에 한한다)</span></li>
+                            <li><span class="color_orange">→ 발주자 또는 수급인이 개인인 경우 개인인감증명서 첨부</span></li>
+                        </ul>
+                    </li>
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >5. 국외 기술경력 신고 시 필요한 서류는?</a>  
+                        </p>  
+                        <ul class="a">
+                            <li>1) 국외 경력확인서</li>
+                            <li>2) 출입국에 관한 사실증명서 또는 국외 경력을 증명할 수 있는 증빙서류</li>
+                            <li>3) 개인정보 수집ㆍ이용 및 제3자 제공 동의서(해외건설인력풀 구축 관련)</li>
+                        </ul>
+                    </li>
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >6. 동일한 기간에 이미 신고한 직무분야와 다른 직무분야의 경력을 추가신고 할 수 있는지?</a>  
+                        </p>  
+                        <ul class="a">
+                            <li>1) 발주청 확인 경력확인서</li>
+                        </ul>
+                    </li>
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >7. 발주청 소속 건설기술인의 경력을 신고할 경우 필요한 서류는?</a>  
+                        </p>  
+                        <ul class="a">
+                            <li>1) 건설기술인 경력변경신고서</li>
+                            <li><span class="color_orange">※ 경력확인서 성명란에 본인 서명 또는 날인이 있는 경우 생략 가능</span></li>
+                            <li>2) 경력확인서</li>
+                            <li>3) 인사기록부 등 인사이동내용을 확인할 수 있는 서류</li>
+                            <li>4) 건강보험자격득실확인서 또는 국민연금가입자가입증명서 사본</li>
+                            <li><span class="color_orange">(근무처 입사 또는 퇴사 변경사항이 있는 경우에 한함)</span></li>
+                        </ul> 
+                    </li>
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >8. 계약직(현장채용직) 경력을 신고할 경우 필요한 서류는?</a>  
+                        </p>  
+                        <ul class="a">
+                            <li>1) 건설기술인 경력변경신고서</li>
+                            <li><span class="color_orange">※ 경력확인서 성명란에 본인 서명 또는 날인이 있는 경우 생략 가능</span></li>
+                            <li>2) 경력확인서</li>
+                            <li>3) 건강보험자격득실확인서 또는 국민연금가입자가입증명서 사본</li>
+                            <li><span class="color_orange">(근무처 입사 또는 퇴사 변경사항이 있는 경우에 한함)</span></li>
+                        </ul>
+                    </li>
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >9. 대학교 산학협력단 경력을 신고할 경우 필요한 서류는?</a>  
+                        </p>  
+                        <ul class="a">
+                            <li>1) 건설기술인 경력변경신고서</li>
+                            <li><span class="color_orange">※ 경력확인서 성명란에 본인 서명 또는 날인이 있는 경우 생략 가능</span></li>
+                            <li>2) 경력확인서</li>
+                            <li>3) 건강보험자격득실확인서 또는 국민연금가입자가입증명서 사본</li>
+                            <li><span class="color_orange">(근무처 입사 또는 퇴사 변경사항이 있는 경우에 한함)</span></li>
+                            <li>4) 거주자의 기타소득 및 비거주자 원천징수영수증</li>
+                            <li><strong class="li_indent">- 세무서 또는 국세청 홈텍스에서 열람(출력)한 해당 영수증 + 사용자(산학협력단)에서 발급 받은 해당 영수증(각각 제출)</strong></li>
+                            <li><strong class="li_indent">- 또는 세무사에게 발급받은 해당 영수증</strong></li>
+                            <li><strong class="li_indent">※ 근무기간이 다른 사업장의 근무기간과 중복되지 않는 경우 인정 (4대보험 증명서류 확인)</strong></li>
+                        </ul>
+                    </li>
+                    <li class="article hide">  
+                        <p class="q">  
+                            <a class="trigger" href="#" >10. 군대에서 건설관련 업무를 수행한 경력을 신고할 경우 필요한 서류는?</a>  
+                        </p>  
+                        <ul class="a">
+                            <li class="li_last"><strong>필요서류</strong></li>
+                            <li><strong>사병 경력 신고</strong></li>
+                            <li>1) 건설기술인 경력변경신고서</li>
+                            <li><span class="color_orange">※ 경력확인서 성명란에 본인 서명 또는 날인이 있는 경우 생략 가능</span></li>
+                            <li>2) 병적증명서 원본</li>
+                            <li><span class="color_orange">※ 주특기번호(또는 병과)와 군기초훈련기간이 표기된 병적증명서(공병병과ㆍ시설병과 또는 측량분야 병과에 한한다)</span></li>
+                            <li>3) 경력확인서</li>
+                            <li class="li_last"><span class="color_orange">※ 참여사업명, 전문분야, 공사종류, 담당업무 등을 표기하여 소속 부대장이 확인 (구체적인 기술 경력을 인정받고자 할 때 제출)</span></li>
+                            <li><strong>부사관 이상의 경력신고</strong></li>
+                            <li>1) 건설기술인 경력변경신고서</li>
+                            <li><span class="color_orange">※ 경력확인서 성명란에 본인 서명 또는 날인이 있는 경우 생략 가능</span></li>
+                            <li>2) 경력확인서</li>
+                            <li><span class="color_orange">※ 육해ㆍ공군본부 공병실장 또는 측량ㆍ측지분야 병과의 장이 확인</span></li>
+                            <li>3) 인사기록부 등 인사이동 내용을 확인할 수 있는 서류</li>
+                        </ul> 
+                    </li>
+                </ul>
+            </div>
+        </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="./js/faq.js"></script>
+</body>
+</html>

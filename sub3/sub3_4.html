@@ -1,0 +1,95 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원광장 - 회원증 발급</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_content4.css">
+    <!-- vendor prefix -->
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+<body>
+    <? include "../common/sub_header.html" ?>
+        <!-- visual -->
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="비주얼">
+            <h3>회원광장</h3>
+        </div>
+        <!-- sub_menu -->
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub3_1.html">웹매거진</a></li>
+                <li><a href="./sub3_2.html">현장견학</a></li>
+                <li><a href="./sub3_3.html">커뮤니티</a></li>
+                <li class="current"><a href="./sub3_4.html">회원증 발급</a></li>
+            </ul>
+        </div>
+        <!-- article -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map"><i class="fas fa-home"></i> &gt; 회원광장 &gt; <strong>회원증 발급</strong></div>
+                <h2>회원증 발급</h2>
+            </div>
+            <div class="content_area">
+                <div class="content_top">
+                    <p>회원우대서비스 이용 및 해외 발주기관 요청 등 협회 회원임을 증명하고자 할 때 사용할 수 있도록 <span class="color_blue">회원증을 무료로 발급</span>하고 있습니다.</p>
+                    <p>개인ID로 로그인을 하시면 직접 발급하실 수 있습니다.</p>
+                </div>
+                <div class="con1">
+                    <h4>이용안내</h4>
+                    <div class="con1_back">
+                        <div class="con1_1">
+                            <h5>A. 온라인</h5>
+                            <div class="con1_img">
+                                <img src="./images/login.png" alt="로그인">
+                                <img src="./images/arrow.png" alt="">
+                                <img src="./images/write1.png" alt="신청서 작성">
+                                <img src="./images/arrow.png" alt="">
+                                <img src="./images/folder.png" alt="다운로드">
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="first"><p>홈페이지<br>로그인</p></li>
+                                    <li class="second"><p>회원증 발급<br>신청서 작성</p></li>
+                                    <li class="third"><p>회원증 출력<br>다운로드</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="con1_2">
+                            <h5>B. 오프라인</h5>
+                            <div class="con2_img">
+                                <img src="./images/write2.png" alt="신청서 작성">
+                                <img src="./images/arrow.png" alt="">
+                                <img src="./images/resume.png" alt="제출">
+                                <img src="./images/arrow.png" alt="">
+                                <img src="./images/folder2.png" alt="발급">
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="first"><p>회원증 발급<br>신청서 작성</p></li>
+                                    <li class="second"><p>제출<br>(팩스, 우편, 방문)</p></li>
+                                    <li class="third"><p>발급<br>(회원복지팀)</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last">
+                    <h4>문의 : 협회 회원복지팀(02-3416-9421)</h4>
+                </div>
+            </div>
+        </article>
+    <? include "../common/sub_footer.html" ?>
+</body>
+</html>

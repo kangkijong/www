@@ -1,0 +1,35 @@
+body{background: url(../images/member_bg.jpg) no-repeat center center; background-size: cover;
+      background-attachment: fixed;}
+.logo{margin: 20px auto; display: block; width: 200px; height: 200px;}
+#content{width: 900px; margin: 0 auto; padding-bottom: 50px; font-family: 'Nanum Gothic', sans-serif;
+      background: #fff; border-radius: 10px; margin-bottom: 50px;}
+
+/* .wrap{padding: 50px;} */
+
+h2{font-size: 28px; margin-top: 50px; margin-bottom: 70px; color: #333; text-align: center;
+      font-weight: 700; position: relative;}
+h2::before{content: ''; position: absolute; top: 40px; left: 389px; width: 125px; height: 5px;
+      background: #001d6f; position: absolute;}
+
+
+table{width: 80%; margin: 0 10%;}
+th,td{border: none; padding: 10px}
+th{width: 20%; text-align: left;}
+td{width: 80%}
+tr{width: 100%;}
+input, select{padding: 5px; border-radius: 2px;
+      font-size: 1em; border: 1px solid #ccc; background: #fff; width: 500px;}
+.hp{width: 154px;}
+#email1{width: 234px;}
+#email2{width: 234px;}
+table tr:last-child td{text-align: center; padding: 20px 0}
+
+
+.save{display: inline-block;width: 200px; line-height: 24px; padding: 8px 0; 
+      border: none; background: #001d6f; color: #fff; font-size: 14px; cursor: pointer;
+      margin: 0 30px; margin-top: 30px; border-radius: 10px;}
+
+
+.cancel{display: inline-block ;width: 200px; line-height: 24px; padding: 8px 0;
+      border: none; background: #999; color: #fff; font-size: 14px; cursor: pointer;
+      border-radius: 10px;}

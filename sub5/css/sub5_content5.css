@@ -1,0 +1,49 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-회사소개 내용 */
+
+#content .container-fluid {padding: 0;}
+
+#content{width: 1200px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif;}
+#content .title_area{position: relative; padding-top: 100px;}
+#content .line_map{font-family: 'Nanum Gothic', sans-serif; position: absolute; right: 15px; top: 15px;}
+#content h2{font-weight: 700; text-align: center; font-size: 50px; margin-bottom: 100px;}
+
+#content .content_area{width: 1200px; margin: 0 auto; overflow: hidden;}
+
+#content .sub_bar{width: 1200px; margin: 0 auto; margin-bottom: 150px; overflow: hidden; }
+#content .sub_bar li{float: left ; width: 598px; border: 1px solid #ccc;}
+#content .sub_bar li a{display: block; font-size: 20px; text-align: center; padding: 15px 0;}
+#content .sub_bar li a:hover{background: #109cf4; font-weight: 700; color: #fff;}
+
+#content .content_area div{position: relative; width: 1200px; font-size: 16px; line-height: 2em; text-align: justify; margin-bottom: 20px;}
+#content h4{display: block; font-size: 30px; font-weight: 700; color: #333; margin-bottom: 50px; padding: 0 0 0 20px;}
+#content h4::before{content: ''; display: block; width: 10px; height: 30px; background: #001d6f; position: absolute; top: 3px; left: 0;}
+
+.color_blue{color: #109cf4;}
+.color_orange{color: #ff6600;}
+
+.content_top{margin-bottom: 150px;}
+.content_top p{font-size: 20px; text-align: center; line-height: 2em; margin-bottom: 100px;}
+
+
+.mail_content{margin-top: 30px; padding-top: 50px; border-top: 3px solid #001d6f;}
+.line_bottom{padding-bottom: 30px; border-bottom: 3px solid #001d6f;}
+
+.content_area .form-control{border-radius: 0px; background: #f3f3f3;}
+
+.content_area .mail_box .row label {
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    width: 15%;
+}
+
+.content_area .form-control {
+    outline: 0;
+    border: 0;
+    background: #f6f6f6;
+    float: right;
+    width: 83%;
+    padding: 10px 0 10px 20px;
+}
+
+.sub_menu li a {padding: 17px 0;}

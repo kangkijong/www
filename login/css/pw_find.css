@@ -1,0 +1,64 @@
+.hidden{display: block; position: absolute; left: -1000%; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+body{background: #f3f3f3;}
+
+.wrap{width: 600px; margin: 0 auto; border-radius: 10px; background: #fff;
+    margin-top: 100px; margin-bottom: 100px;}
+
+.logo{margin: 0 auto; display: block; width: 200px; height: 200px;
+    margin-top: 20px; margin-bottom: 40px; padding-top: 20px;}
+
+#content{padding-bottom: 50px; width: 80%; margin: 0 10%; font-family: 'Nanum Gothic', sans-serif;}
+
+
+.con_head p{font-size: 16px; text-align: center; margin-bottom: 50px;}
+
+.find_input {
+    width: 400px;
+    height: 50px;
+    padding: 0 10px;
+    margin-bottom: 40px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.tel_box{margin-left: 25px;}
+
+.find_input2 {
+    clear: both;
+    width: 100px;
+    height: 50px;
+    padding: 0 10px;
+    margin-bottom: 40px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: inline;
+    margin: 0 5px;
+}
+
+.find {
+    width: 420px;
+    height: 50px;
+    background-color: #001d6f;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto; margin-top: 40px; margin-bottom: 20px;
+}
+
+
+
+#login_find{margin-left: 110px;}
+#login_find a{margin: 0 20px; font-size: 14px; text-decoration: none;}
+
+.join{color: #109cf4; font-weight: 700;}
+.note{margin-top: 50px; text-align: center;}
+.note a{margin-left: 15px;}

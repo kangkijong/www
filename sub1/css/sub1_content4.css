@@ -1,0 +1,26 @@
+/* 각각의 페이지의 내용 콘텐츠 영역-회사소개 내용 */
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 100px;}
+#content .line_map{font-family: 'Nanum Gothic', sans-serif; position: absolute; right: 15px; top: 15px;}
+#content h2{font-weight: 700; text-align: center; font-size: 50px; margin-bottom: 100px;}
+
+.color_blue{color: #109cf4;}
+.content_top{margin-bottom: 150px;}
+.content_top p{font-size: 20px; text-align: center; line-height: 2em;}
+
+#content .content_area{width: 1200px; margin: 0 auto; overflow: hidden;}
+
+#content #map{width: 1200px; height: 600px; border: 5px solid #ccc; margin: 0 auto; margin-bottom: 100px; overflow: hidden;}
+#content .information{margin-bottom: 150px;}
+#content .map p{font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 20px; text-align: justify; line-height: 2em; color: #333;}
+#content .map dl{margin-top: 50px;}
+#content .map dl .seven{color: #747F00; font-weight: 700;}
+#content .map dl .bundang{color: #F5A200; font-weight: 700;}
+#content .map dl .gansun{color: blue; font-weight: 700;}
+#content .map dl .sunhwan{color: green; font-weight: 700;}
+#content .map dt{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 24px; text-align: justify; line-height: 2em; color: #333; margin-top: 50px; padding-top: 50px; border-top:2px solid #ccc}
+#content .map dd{font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 20px; text-align: justify; line-height: 2em; color: #333;}
+
+
+
