@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+  html {
+    font-size: 14px;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  
+  .hidden, #skipNav{position: absolute; display: block; width: 1px; height: 1px;
+     left: -1000%; top: 0; overflow: hidden; color: #fff;}
+
+/* 와이드 pc */
+
+  /* 헤더 */
+  .container-fluid {padding: 0;}
+
+  .navbar-brand{background: url(/bootstrap/images/logo.png) no-repeat center; width: 70px; height: 80px; text-indent: -9999px; overflow: hidden; color: #fff;}
+  .navbar-nav{margin-top: 15px;}
+  .navbar-default .navbar-nav>li>a {font-family: 'Outfit', sans-serif; font-size: 30px; color: #001489; transition: .3s;}
+  .navbar-default .navbar-nav>li>a:hover{color: #da291c;}
+
+  .navbar-default .navbar-nav>.active>a {color: #da291c; background: none;}
+
+  /* 비주얼 */
+  .main_visual{margin-top: 50px;}
+  .control{position: absolute; top: 50%; z-index: 5; display: inline-block;}
+
+  .main_visual .carousel-inner img{width: 100%;}
+
+  /* 본문 콘텐츠 */
+  
+  h3, .h3{font-family: 'Outfit', sans-serif; font-size: 40px; color: #333; text-align: center; font-weight: 500;
+    margin-top: 100px; margin-bottom: 50px;}
+
+    /* about */
+    .about>div{background: #f8f8f8;}
+    .about img{width: 100%;}
+    .about .row>div{padding: 0;}
+
+    .about dl{padding: 50px;}
+    .about dt{font-size: 20px; text-align: center; margin-top: 100px; color: #001489;}
+    .about dd{margin-top: 50px; text-align: justify;}
+
+    .about span{text-align: center; font-weight: 500; font-size: 24px; margin-bottom: 50px;}
+    .about .img_right{float: right;}
+
+
+    /* teams */
+    .teams{margin-bottom: 100px;}
+    /* .teams .nav{margin-left: 21%;} */
+    /* .teams .nav-tabs{border-bottom: none;} */
+    .nav-tabs>li>a{font-family: 'Outfit', sans-serif; font-size: 20px;}
+    /* .nav-tabs>li.active>a{color: #da291c; border-bottom: 1px solid #ccc;} */
+    .teams img{width: 100%; margin-top: 50px; transition: .3s;}
+    .teams img:hover{transform: scale(1.05);}
+    .teams p{font-size: 20px; text-align: center; margin-top: 10px;}
+
+    .teams ul{list-style: none; margin-top: 20px;}
+    .teams .modal-body img{transform: none;}
+
+
+    /* tickets */
+    .tickets{background: #f8f8f8;}
+    .tickets_back{padding: 6%; margin-bottom: 50px; color: #fff;
+      text-shadow: 3px 3px 2px rgb(0 0 0 / 80%);
+      background: url(/bootstrap/images/tickets.jpg) center no-repeat; background-attachment: fixed; background-size: cover;}
+    .tickets h3, .h3{margin-top: 0; margin-bottom: 20px; padding: 0; color: #fff;}
+    .tickets .sub_title{font-family: 'Outfit', sans-serif; font-size: 24px; text-align: center; margin: 0;}
+    
+    .tickets .box1{border: 1px solid #001489; border-top: none; border-left: none;}
+    .tickets .box2{border: 1px solid #001489; border-top: none; border-right: none;}
+    .tickets .box3{border: 1px solid #001489; border-bottom: none; border-left: none;}
+    .tickets .box4{border: 1px solid #001489; border-bottom: none; border-right: none;}
+
+    .tickets dl{padding: 50px;}
+    .tickets dt{font-size: 20px; color: #001489;}
+    .tickets dd{margin-top: 50px;}
+
+
+    /* membership */
+    .membership dt{font-size: 20px; margin-top: 20px; text-align: center;}
+    .membership dd{margin-top: 20px; text-align: justify; margin-bottom: 40px;}
+    
+    .membership .btn-primary{display: block; background-color: #001489; color: #fff; width: 60%; margin: 0 auto; border: none; border-radius: 0; margin-bottom: 50px;}
+
+
+  /* 푸터 */
+  #footerArea{background: #001489; margin-top: 100px;}
+  #footerArea p{font-size: 16px; color: #fff; text-align: center; padding-top: 20px; padding-bottom: 20px; margin: 0;}
+
+  .sns{text-align: center; padding-top: 20px;}
+  .sns img{margin: 0 10px;}
+
+  .spon{text-align: center; padding-top: 20px;}
+  .spon img{margin: 0;}
+
+  /* top move */
+  .topMove{display: block; position: fixed; right: 5%; bottom: 240px; z-index: 50;}
+  .topMove i{font-size: 50px; color: #da291c;}
+
+
+/* 일반pc */
+@media screen and (max-width:1199px) {
+  .about dt{margin-top: 50px;}
+
+  .tickets .box1{border: none;}
+  .tickets .box2{border: none;}
+  .tickets .box3{border: none;}
+  .tickets .box4{border: none;}
+  .tickets .big_box1{border-bottom: 1px solid #001489;}
+
+  .membership .btn-primary{width: 70%;}
+}
+
+/* 테블릿 */
+@media screen and (max-width:991px) {
+  .about dl{padding: 0 20px;}
+  .about dd{margin-top: 30px;}
+
+  .tickets dl{padding: 20px;}
+  .tickets .big_box2{margin-top: 20px;}
+}
+
+/* 소형테블릿 */
+@media screen and (max-width:767px) {
+  .navbar-brand{background: url(/bootstrap/images/logo2.png) no-repeat center; width: 40px; height: 50px; margin-left: 10px;}
+
+  .about .img_right{display: block; float: left; width: 100%;}
+  .about dl{padding: 0 20px;}
+  .about dt{margin-top: 50px;}
+  .about dd{margin-top: 50px; margin-bottom: 50px;}
+
+  .tickets .box1{border-bottom: 1px solid #001489;}
+  .tickets .box2{border-bottom: 1px solid #001489; margin-top: 20px;}
+  .tickets .box3{border-bottom: 1px solid #001489; margin-top: 20px;}
+  .tickets .box4{border: none; margin-top: 20px;}
+  .tickets .big_box1{border: none;}
+
+  .membership .btn-primary{width: 40%;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+}
