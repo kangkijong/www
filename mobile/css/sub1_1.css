@@ -1,0 +1,19 @@
+.main{position: relative; overflow: hidden; height: 150px; width: 100%; background: url(../images/mobile_sub1_visual.jpg) no-repeat center; margin-top: 50px;}
+.main h3{position: absolute; top: 40%; width: 100%; color: #fff; font-weight: 400; font-size: 18px; text-align: center;}
+
+#content{overflow: hidden;}
+#content h2{font-weight: 700; font-size: 26px; text-align: center; margin-top: 50px;}
+#content .title{font-weight: 400; font-size: 18px; text-align: center; margin-top: 50px; margin-bottom: 50px; line-height: 1.5em;}
+#content span{color: #109cf4;}
+#content img{display: block; margin: 0 auto;}
+
+#content>div{margin-top: 50px;}
+
+#content .con1{overflow: hidden; padding: 0 20px;}
+#content .con1 p{font-weight: 400; font-size: 16px; text-align: justify; line-height: 1.5em; margin-bottom: 20px;}
+#content .str1{font-weight: 700; font-size: 20px; color: #333;}
+
+#content .con2{overflow: hidden; position: relative; padding: 0 20px;}
+#content h4{display: block; font-weight: 700; font-size: 20px; margin-bottom: 20px; padding: 0 0 0 15px;}
+#content h4::before{position: absolute; display: block; content: ''; width: 8px; height: 22px; background: #001d6f; top: 3px; left: 20px;}
+#content .con2 li{line-height: 1.5em; font-size: 16px;}

@@ -1,0 +1,37 @@
+.main{position: relative; overflow: hidden; height: 150px; width: 100%; background: url(../images/mobile_sub4_visual.jpg) no-repeat center; margin-top: 50px;}
+.main h3{position: absolute; top: 40%; width: 100%; color: #fff; font-weight: 400; font-size: 18px; text-align: center;}
+
+#content{overflow: hidden;}
+#content h2{font-weight: 700; font-size: 26px; text-align: center; margin-top: 50px;}
+#content .title{font-weight: 400; font-size: 16px; text-align: justify; margin-top: 50px; margin-bottom: 50px; line-height: 1.5em;}
+#content .title span{color: #109cf4;}
+
+#content{overflow: hidden; padding: 0 20px; line-height: 1.5em;}
+
+#content>div{overflow: hidden; margin-top: 50px; position: relative; font-size: 16px;}
+
+#content h4{display: block; font-weight: 700; font-size: 20px; margin-bottom: 20px; padding: 0 0 0 15px;}
+#content h4::before{position: absolute; display: block; content: ''; width: 8px; height: 22px; background: #001d6f; top: 3px; left: 0;}
+
+.con1{position: relative; overflow: hidden;}
+.con1_back{background: #f5f5f5; border-radius: 20px;}
+.con1 img{display: block; float: left; width: 8%; margin: 20px 6% 20px 6%;}
+
+.con1_img{margin: 0 50px;}
+.con1_1{overflow: hidden; width: 100%; margin: 0 auto; padding: 20px 0;}
+.con1_1 ul{line-height: 1.5em; text-align: center;}
+
+.con1_text{display: block;}
+.con1_text li{float: left; width: 33%; font-size: 16px; font-weight: 400;}
+
+.color_blue{color: #109cf4;}
+.color_orange{color: #ff6600;}
+
+.con2 li{line-height: 1.5em;}
+.bold{font-weight: 700; margin-bottom: 10px;}
+.normal{font-weight: 400; padding: 0;}
+
+#content .con2 li{font-weight: 700;}
+#content .con2 li li{font-weight: 400; margin-left: 15px; text-indent: -15px; }
+
+#content .con3 span{color: #109cf4;}

@@ -1,0 +1,27 @@
+.main{position: relative; overflow: hidden; height: 150px; width: 100%; background: url(../images/mobile_sub3_visual.jpg) no-repeat center; margin-top: 50px;}
+.main h3{position: absolute; top: 40%; width: 100%; color: #fff; font-weight: 400; font-size: 18px; text-align: center;}
+
+#content{overflow: hidden;}
+#content h2{font-weight: 700; font-size: 26px; text-align: center; margin-top: 50px;}
+#content .title{font-weight: 400; font-size: 16px; text-align: justify; margin-top: 50px; margin-bottom: 50px; line-height: 1.5em;}
+#content .title span{color: #109cf4;}
+
+#content{overflow: hidden; padding: 0 20px;}
+
+#content>div{overflow: hidden; margin-top: 50px; position: relative; font-size: 16px;}
+
+#content h4{display: block; font-weight: 700; font-size: 20px; margin-bottom: 20px; padding: 0 0 0 15px;}
+#content h4::before{position: absolute; display: block; content: ''; width: 8px; height: 22px; background: #001d6f; top: 3px; left: 0;}
+
+#content table{width: 100%; font-weight: 400; font-size: 16px; color: #333;}
+#content thead{border: 1px solid #ccc;}
+#content thead th{padding: 10px 0; border: 1px solid #ccc; background: #f5f5f5; font-size: 16px; font-weight: 700;}
+#content tbody th{border: 1px solid #ccc; padding: 10px 0; text-align: center; font-size: 16px;}
+#content tbody td{border: 1px solid #ccc; padding: 10px 0; text-align: center; font-size: 16px;}
+#content p{margin-top: 10px;}
+
+.last1 a{color: #fff;}
+.download{background: #109cf4; font-size: 14px; font-weight: 700; padding: 3px 3px; border-radius: 10px; margin-left: 10px;}
+
+.color_blue{color: #109cf4;}
+.color_orange{color: #ff6600;}

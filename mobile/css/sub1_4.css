@@ -1,0 +1,23 @@
+.main{position: relative; overflow: hidden; height: 150px; width: 100%; background: url(../images/mobile_sub1_visual.jpg) no-repeat center; margin-top: 50px;}
+.main h3{position: absolute; top: 40%; width: 100%; color: #fff; font-weight: 400; font-size: 18px; text-align: center;}
+
+#content{overflow: hidden;}
+#content h2{font-weight: 800; font-size: 26px; text-align: center; margin-top: 50px;}
+#content .title{font-weight: 400; font-size: 18px; text-align: center; margin-top: 50px; margin-bottom: 50px; line-height: 1.5em;}
+#content span{color: #109cf4;}
+
+#content{overflow: hidden; padding: 0 20px;}
+
+#content>div{overflow: hidden; margin-top: 50px;}
+
+#content #map{width: 98%; height: 350px; border: 2px solid #ccc; margin: 0 auto; margin-bottom: 20px; overflow: hidden;}
+#content .information{margin-bottom: 50px;}
+#content .map p{font-weight: 400; font-size: 16px; text-align: justify; line-height: 1.5em; color: #333;}
+#content .map dl{margin-top: 20px;}
+#content .map dl .seven{color: #747F00; font-weight: 700;}
+#content .map dl .bundang{color: #F5A200; font-weight: 700;}
+#content .map dl .gansun{color: blue; font-weight: 700;}
+#content .map dl .sunhwan{color: green; font-weight: 700;}
+#content .map dt{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 20px; text-align: justify; line-height: 1.5em; color: #333; margin-top: 20px; margin-bottom: 10px; padding-top: 20px; border-top:2px solid #ccc}
+#content .map dd{font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 16px; text-align: justify; line-height: 1.5em; color: #333;}
+

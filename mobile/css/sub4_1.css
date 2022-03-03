@@ -1,0 +1,35 @@
+.main{position: relative; overflow: hidden; height: 150px; width: 100%; background: url(../images/mobile_sub4_visual.jpg) no-repeat center; margin-top: 50px;}
+.main h3{position: absolute; top: 40%; width: 100%; color: #fff; font-weight: 400; font-size: 18px; text-align: center;}
+
+#content{overflow: hidden;}
+#content h2{font-weight: 700; font-size: 26px; text-align: center; margin-top: 50px;}
+#content .title{font-weight: 400; font-size: 16px; text-align: justify; margin-top: 50px; margin-bottom: 50px; line-height: 1.5em;}
+#content .title span{color: #109cf4;}
+
+#content{overflow: hidden; padding: 0 20px; line-height: 1.5em;}
+
+#content>div{overflow: hidden; margin-top: 50px; position: relative; font-size: 16px;}
+
+#content h4{display: block; font-weight: 700; font-size: 20px; margin-bottom: 20px; padding: 0 0 0 15px;}
+#content h4::before{position: absolute; display: block; content: ''; width: 8px; height: 22px; background: #001d6f; top: 3px; left: 0;}
+
+#content img{border-radius: 20px;}
+
+#content .con1{overflow: hidden; position: relative;}
+#content .con1 img{width: 50%; margin-right: 50%;}
+
+#content>div{text-align: center;}
+.con1 dl{width: 50%; margin-left: 50%; position: absolute; top:0; padding-left: 5px; text-align: center;}
+.con1 .main_dt{font-size: 16px; font-weight: 700; color: #109cf4;}
+.con1 .main_dd{font-size: 16px; font-weight: 700; color: #109cf4;}
+.con1 .sub_dt{font-size: 14px; font-weight: 700; color: #333;}
+.con1 .sub_dd{font-size: 14px; font-weight: 400; color: #333;}
+
+#content .con2{overflow: hidden; position: relative;}
+#content .con2 img{width: 50%; margin-left: 50%;}
+
+.con2 dl{width: 50%; margin-right: 50%; position: absolute; top:0; padding-right: 5px; text-align: center;}
+.con2 .main_dt{font-size: 16px; font-weight: 700; color: #109cf4;}
+.con2 .main_dd{font-size: 16px; font-weight: 700; color: #109cf4;}
+.con2 .sub_dt{font-size: 14px; font-weight: 700; color: #333;}
+.con2 .sub_dd{font-size: 14px; font-weight: 400; color: #333;}

@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+html{font-size:14px;}
+body {
+ color:#333;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {
+ border-radius:1px;}
+textarea { resize:none; }
+label { cursor:pointer; }
+.hidden,#skipNav{display: block; position: absolute; left:-1000%;top:0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+table{border-collapse: collapse;}
+
+/* 전체 공통 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap&https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+.wrap{ width:100%; position: relative; overflow:hidden;}
+h1, h2, h3, h4, p, ul, li, table, div, a, dl, dt, dd{font-family: 'Nanum Gothic', sans-serif;}
+
+
+/* top move */
+.topMove {display: block; position: fixed; right: 20px; bottom: 210px; z-index: 5;
+    transition: all .1s ease-in;}
+/* .topMove:hover {bottom: 244px;} */
+.topMove i {font-size: 50px; color: #001d6f;}
+
+
+/* 헤더공통 */
+#headerArea{width: 100%; height: 50px; position: fixed; top: 0; left: 0; background: #001d6f; z-index: 100;}
+
+#headerArea .header_top{overflow: hidden;}
+#headerArea h1 a{display: block; width: 26px; height: 30px; margin: 0 auto; background: url(../images/mobile_main_640_03.png) center no-repeat;
+    text-indent: -999px; overflow: hidden; padding: 10px 0;}
+
+/* #headerArea .menu_open{display: block; float: right; height: 50px; position: absolute; top: 12px; right: 20px; color: #fff;} */
+
+/* 네비 */
+#headerArea .menu_ham {
+    display: block;
+    float: right;
+    height: 50px;
+    position: absolute; top: -1px; right: 10px;
+    border-radius: 5px;
+}
+#headerArea .menu_ham span {
+    width: 20px;
+    height: 4px;
+    background: #fff;
+    position: relative;
+    text-indent: -9999px;
+    display: block;
+    margin: 26px 15px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+#headerArea .menu_ham span::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    border-radius: 5px;
+    transition: all .3s;
+}
+#headerArea .menu_ham span::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+/* 메뉴가 열렸을때 */
+#headerArea.mn_open .menu_ham span, #headerArea.mn_open .menu_ham span::before, #headerArea.mn_open .menu_ham span::after {
+    background: #fff;
+}
+
+#headerArea.mn_open .menu_ham span {
+    background: rgba(0,0,0,0);
+}
+
+#headerArea.mn_open .menu_ham span::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+#headerArea.mn_open .menu_ham span::after {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+
+.modal_box{width: 100%; height: 100%; position: fixed; background: rgba(0,0,0,.8);
+   z-index: 10; top: 50px; display: none;}
+
+/* nav 영역*/
+#gnb{position: absolute; width: 80%;  right:-100%; top:50px; opacity: 0; background: #fff; z-index:20; font-family: 'Nanum Gothic', sans-serif; font-weight: 400;}
+#gnb li{border-top: 1px solid #ccc; text-align: center;}
+#gnb h3 a{font-size:18px}
+#gnb li a{display: block; padding: 15px 0;}
+#gnb li ul{background:#109cf4; display: none;}
+#gnb .last{border-bottom:1px solid #ccc}
+#gnb>img{display: block; margin: 0 auto; margin-top: 20px;}
+#gnb>div{text-align: center; margin-top: 20px;}
+#gnb p{font-family: 'Nanum Gothic', sans-serif; font-weight: 400; 
+    margin-top: 20px; font-size: 14px; text-align: center;}
+
+#gnb .family li{width: 100%; text-align: center; border: 1px solid #ccc;}
+#gnb .aList{display: none; }
+#gnb .aList li{width: 25%; float: left; border: 1px solid #ccc; box-sizing: border-box;}
+
+
+
+/* 푸터공통 */
+#footerArea{width: 100%; overflow: hidden; background: #001d6f; margin-top: 100px;}
+
+#footerArea .footer_top li{float: left; width: 40%; margin: 0 5%;
+    font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 16px; text-align: center; margin-top: 10px; margin-bottom: 10px;}
+#footerArea .footer_top li p{color: #fff;}
+
+#footerArea .footer_mid address{font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 14px; text-align: center;
+    line-height: 1.5em; color: #fff; margin-bottom: 10px;}
+#footerArea .footer_mid p{font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 16px; text-align: center;
+    line-height: 1.5em; color: #fff; margin-bottom: 10px;}
+
+/* #footerArea .footer_bottom{overflow: hidden; margin-bottom: 10px;}
+#footerArea .footer_bottom li{float: left; width: 30%;}
+#footerArea .footer_bottom img{display: block; margin: 0 auto;} */
+
+/* #footerArea .footer_bottom .select{float: right; width: 40%;}
+.select .arrow{display: block; font-family: 'Nanum Gothic', sans-serif; text-align: center; padding: 10px; color: #333; font-size: 16px; font-weight: 400;}
+.select .aList{position: absolute; top: -362px;  left: -2px; width: 202px; height: 40px; border: 1px solid #ccc; display: none;}
+.select .aList li{line-height: 2em; border: 1px solid #ccc; }
+.select .aList li a{display:block; text-align: center; background: #fff; font-size: 16px;} */
+
+
+#footerArea .footer_bottom span{font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 16px; text-align: center; 
+    line-height: 2em; color: #333; background: #fff; padding: 10px 15px;}
+
+#footerArea .end{border-top: 1px solid #fff;}
+#footerArea .last{font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 16px;
+    color: #fff; margin-bottom: 10px; margin-top: 10px;}
+#footerArea .last p{text-align: center; margin: 5px 0;}
+
+
+
+
+
+
+
